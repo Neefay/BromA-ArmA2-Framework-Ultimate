@@ -1,4 +1,4 @@
-After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use.
+_**After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use**.
 
 # What is the BromA Mission Framework?
 
@@ -45,11 +45,11 @@ As stated previously, the BMF is a compilation - a mashup of several different s
 
 ** THESE HAVE BEEN ADDED WITHOUT CONSENT OR AUTHORIZATION: IF YOU ARE THE OWNER OF ONE OR MORE OF THE WORK INCLUDED HERE AND WISH TO HAVE IT REMOVED, PLEASE MESSAGE ME ASAP. **
 
-* Casualty Cap, Evade and Escape, AI removal and other assorted scripts modified from the **F2 Framework (www.ferstaberinde.com/f2/en/)** by **Fer**.
-* ** DAC - Dynamic AI Creator** (http://forums.bistudio.com/showthread.php?99753-Dynamic-AI-Creator-%28DAC%29-V3-0-released) by ** Silola **.
-* ** Revive system** (http://forums.bistudio.com/showthread.php?110129-Revive-script-for-ACE2-Wounding-system-V1-5) by **columdrum **. 
-* ** Takistan Force ** (http://forums.bistudio.com/showthread.php?103813-COOP-20-Takistan-Force-%28OA%29) modules by ** BoN **.
-* ** TaskMaster** (http://forums.bistudio.com/showthread.php?100731-Taskmaster-2) by **Shuko**
+* Casualty Cap, Evade and Escape, AI removal and other assorted scripts modified from the **F2 Framework **(www.ferstaberinde.com/f2/en/) by **Fer**.
+* ** DAC - Dynamic AI Creator** (http://forums.bistudio.com/showthread.php?99753-Dynamic-AI-Creator-%28DAC%29-V3-0-released) by **Silola**.
+* **Revive system** (http://forums.bistudio.com/showthread.php?110129-Revive-script-for-ACE2-Wounding-system-V1-5) by **columdrum **. 
+* **Takistan Force ** (http://forums.bistudio.com/showthread.php?103813-COOP-20-Takistan-Force-%28OA%29) modules by **BoN **.
+* **TaskMaster** (http://forums.bistudio.com/showthread.php?100731-Taskmaster-2) by **Shuko**
 Many scripts by **Krauser** and **Sandiford** from United Operations (http://forums.unitedoperations.net/)
 
 **Special thanks to**
