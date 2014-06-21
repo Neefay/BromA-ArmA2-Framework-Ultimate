@@ -1,0 +1,4390 @@
+version=11;
+class Mission
+{
+	addOns[]=
+	{
+		"desert_e",
+		"ca_modules_functions",
+		"ace_sys_interaction",
+		"ace_sys_repair",
+		"ace_main",
+		"ace_sys_wounds",
+		"cba_main",
+		"ace_sys_vehicledamage",
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"dac_source",
+		"ca_missions_garbagecollector",
+		"ace_sys_playerhud",
+		"ca_animals2_rabbit",
+		"cacharacters_e",
+		"camisc_e",
+		"map_eu",
+		"cawheeled_e_hmmwv",
+		"CAWheeled_E",
+		"GLT_Missilebox_config",
+		"caair_e_ch_47f",
+		"CAAir_E_AH6J",
+		"acex_veh_m1",
+		"CATracked_E_M2A2_Bradley",
+		"BI_SRRS",
+		"ace_sys_aitalk",
+		"camisc_e_wf",
+		"acex_veh_mah6",
+		"cacharacters2",
+		"ace_c_men",
+		"CATracked_E",
+		"caair_e_mi8",
+		"CAAir_E",
+		"cawheeled_e_v3s",
+		"catracked_e_m113"
+	};
+	addOnsAuto[]=
+	{
+		"ca_modules_functions",
+		"ace_sys_interaction",
+		"ace_sys_repair",
+		"ace_main",
+		"cba_main",
+		"ace_sys_vehicledamage",
+		"ace_sys_wounds",
+		"ace_sys_viewblock",
+		"acex_usnavy_men_usmc",
+		"ace_sys_playerhud",
+		"cacharacters_e",
+		"ace_sys_aitalk",
+		"dac_source",
+		"cacharacters2",
+		"ace_c_men",
+		"ca_animals2_rabbit",
+		"camisc_e",
+		"map_eu",
+		"cawheeled_e_hmmwv",
+		"CAWheeled_E",
+		"GLT_Missilebox_config",
+		"caair_e_ch_47f",
+		"CAAir_E_AH6J",
+		"acex_veh_m1",
+		"CATracked_E_M2A2_Bradley",
+		"acex_veh_mah6",
+		"camisc_e_wf",
+		"CATracked_E",
+		"caair_e_mi8",
+		"CAAir_E",
+		"cawheeled_e_v3s",
+		"catracked_e_m113",
+		"desert_e"
+	};
+	randomSeed=3234872;
+	class Intel
+	{
+		briefingName=">> Broma Framework ULTIMATE - v1.0 <<";
+		briefingDescription="** EDIT THE DESCRIPTION TO FIT YOUR MISSION **";
+		resistanceEast=1;
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2014;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+	};
+	class Groups
+	{
+		items=53;
+		class Item0
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1645.0413,41.987579,-86.496582};
+					id=0;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.5;
+					text="server";
+					description="This runs the server functions - DO NOT REMOVE";
+				};
+			};
+		};
+		class Item1
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1666.5872,43.479557,-105.04565};
+					id=1;
+					side="LOGIC";
+					vehicle="FunctionsManager";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.5;
+					description="Enables functions - DO NOT REMOVE";
+				};
+			};
+		};
+		class Item2
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1683.5187,44.254379,-133.71509};
+					id=2;
+					side="LOGIC";
+					vehicle="ACE_NoKnockDown";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1767.923,44.87569,-131.63452};
+					id=4;
+					side="LOGIC";
+					vehicle="ace_sys_repair_tyres";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1746.7214,44.119244,-82.707764};
+					id=5;
+					side="LOGIC";
+					vehicle="ACE_Required_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1646.2297,42.672092,-104.12634};
+					id=7;
+					side="LOGIC";
+					vehicle="CBA_main_require";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item6
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1720.877,43.838974,-132.75439};
+					id=3;
+					side="LOGIC";
+					vehicle="ACE_Vehicledamage_Enable_Cookoff";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item7
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1781.0081,45.461193,-81.499878};
+					id=6;
+					side="LOGIC";
+					vehicle="ACE_Wounds_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item8
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1853.3535,45.383579,-134.02808};
+					id=11;
+					side="LOGIC";
+					vehicle="ACE_Viewblock_EnableAIGrassVB_Mod";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					presence=0;
+					position[]={1927.7831,46.77977,-102.48346};
+					id=12;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					leader=1;
+					skill=0.60000002;
+					text="S1";
+				};
+			};
+		};
+		class Item10
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1814.6327,46.04982,-133.50403};
+					id=13;
+					side="LOGIC";
+					vehicle="ACE_SYS_Force1st_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item11
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1210.339,40.755489,142.3006};
+					azimut=180;
+					id=14;
+					side="CIV";
+					vehicle="Haris_Press_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					text="Haris69Press";
+					init="this addAction [""Start Camera"",""camera.sqs"",[],2,false,true,"""",""driver _target == _this""]; this allowDamage false;";
+					description="Mission Observer (Journalist)";
+					synchronizations[]={14};
+				};
+			};
+		};
+		class Item12
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1205.6735,40.77993,137.09778};
+					azimut=179.47701;
+					special="NONE";
+					id=15;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Officer_D";
+					player="PLAY CDG";
+					leader=1;
+					rank="MAJOR";
+					skill=1;
+					text="Zero69Actual";
+					init="(group this) setGroupId [""Zero""]; id = [""CO"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="** Zero Actual - Commanding Officer **";
+				};
+				class Item1
+				{
+					position[]={1205.6405,40.77906,138.98108};
+					azimut=-178.31;
+					special="NONE";
+					id=16;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Medic_D";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Platoon69Medic";
+					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Zero'2 Medic";
+				};
+			};
+		};
+		class Item13
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1201.1437,40.802967,132.55043};
+					azimut=-179.228;
+					special="NONE";
+					id=17;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_SL_D";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="Alpha69Actual";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="** Alpha Actual";
+				};
+				class Item1
+				{
+					position[]={1199.7289,40.788456,130.6524};
+					azimut=-5.5637498;
+					special="NONE";
+					id=18;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Alpha_1_1";
+					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Alpha 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1199.728,40.792038,129.20226};
+					azimut=-5.5637498;
+					special="NONE";
+					id=22;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AR_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha691692";
+					init="this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Alpha 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1199.76,40.801571,128.0014};
+					azimut=-5.5637498;
+					special="NONE";
+					id=26;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha691693";
+					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Alpha 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1199.6925,40.783058,126.70546};
+					azimut=-5.5637498;
+					special="NONE";
+					id=19;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AT_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha691694";
+					init="this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Alpha 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1202.7048,40.778568,130.72894};
+					azimut=-5.5637498;
+					special="NONE";
+					id=20;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Alpha_2_1";
+					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Alpha 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1202.7441,40.738258,129.2551};
+					azimut=-5.5637598;
+					special="NONE";
+					id=23;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692692";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Alpha 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1202.7898,40.740063,128.0759};
+					azimut=-5.5637498;
+					special="NONE";
+					id=25;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692693";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Alpha 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1202.8191,40.767834,126.86758};
+					azimut=-5.5637598;
+					special="NONE";
+					id=24;
+					side="WEST";
+					vehicle="ACE_USMC_SoldierS_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha692694";
+					init="this assignTeam ""RED""; id = [""JTAC"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Alpha 2'4 - JTAC";
+				};
+				class Item9
+				{
+					position[]={1201.1545,40.798664,133.42094};
+					azimut=178.45599;
+					special="NONE";
+					id=21;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Medic_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Alpha69Corpsman";
+					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Alpha - Squad Medic";
+				};
+			};
+		};
+		class Item14
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1208.6202,40.746365,132.55463};
+					azimut=-178.52499;
+					special="NONE";
+					id=27;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_SL_D";
+					player="PLAY CDG";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="Bravo69Actual";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="** Bravo Actual";
+				};
+				class Item1
+				{
+					position[]={1207.1357,40.757286,130.71506};
+					azimut=-4.8603501;
+					special="NONE";
+					id=28;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Bravo_1_1";
+					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Bravo 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1207.1144,40.757713,129.26445};
+					azimut=-4.8603501;
+					special="NONE";
+					id=32;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AR_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo691692";
+					init="this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Bravo 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1207.1284,40.735409,128.0708};
+					azimut=-4.8603501;
+					special="NONE";
+					id=36;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo691693";
+					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Bravo 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1207.158,40.786884,126.74818};
+					azimut=-4.8603501;
+					special="NONE";
+					id=29;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AT_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo691694";
+					init="this assignTeam ""BLUE"";id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Bravo 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1210.0341,40.759026,130.71967};
+					azimut=-4.8603501;
+					special="NONE";
+					id=30;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Bravo_2_1";
+					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Bravo 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1210.1228,40.75592,129.29367};
+					azimut=-4.8603601;
+					special="NONE";
+					id=33;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692692";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Bravo 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1210.1472,40.756104,128.15796};
+					azimut=-4.8603501;
+					special="NONE";
+					id=35;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692693";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Bravo 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1210.2444,40.780262,126.8284};
+					azimut=-4.8603601;
+					special="NONE";
+					id=34;
+					side="WEST";
+					vehicle="ACE_USMC_SoldierS_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo692694";
+					init="this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Bravo 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1208.5922,40.743717,133.47385};
+					azimut=179.159;
+					special="NONE";
+					id=31;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Medic_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Bravo69Corpsman_Bravo";
+					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Bravo - Squad Medic";
+				};
+			};
+		};
+		class Item15
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1201.3611,40.773815,122.72208};
+					azimut=-178.52499;
+					special="NONE";
+					id=37;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_SL_D";
+					player="PLAY CDG";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="Charlie69Actual";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="** Charlie Actual";
+				};
+				class Item1
+				{
+					position[]={1199.8171,40.617344,120.71872};
+					azimut=-4.8603501;
+					special="NONE";
+					id=38;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Charlie_1_1";
+					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Charlie 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1199.9048,40.597824,119.39294};
+					azimut=-4.8603501;
+					special="NONE";
+					id=42;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AR_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie691692";
+					init="this assignTeam ""BLUE"";  id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Charlie 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1199.9094,40.612759,118.19739};
+					azimut=-4.8603501;
+					special="NONE";
+					id=46;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie691693";
+					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Charlie 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1199.9292,40.629116,116.88464};
+					azimut=-4.8603501;
+					special="NONE";
+					id=39;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AT_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie691694";
+					init="this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Charlie 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1202.8123,40.773975,120.85483};
+					azimut=-4.8603501;
+					special="NONE";
+					id=40;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Charlie_2_1";
+					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Charlie 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1202.9106,40.728413,119.42415};
+					azimut=-4.8603601;
+					special="NONE";
+					id=43;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692692";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Charlie 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1202.8959,40.693508,118.05907};
+					azimut=-4.8603501;
+					special="NONE";
+					id=45;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692693";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Charlie 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1202.917,40.675301,116.67618};
+					azimut=-4.8603601;
+					special="NONE";
+					id=44;
+					side="WEST";
+					vehicle="ACE_USMC_SoldierS_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie692694";
+					init="this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Charlie 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1201.3541,40.775974,123.62009};
+					azimut=179.159;
+					special="NONE";
+					id=41;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Medic_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Charlie69Corpsman_Charlie";
+					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Charlie - Squad Medic";
+				};
+			};
+		};
+		class Item16
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1208.915,40.911724,123.11717};
+					azimut=-178.52499;
+					special="NONE";
+					id=47;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_SL_D";
+					player="PLAY CDG";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="Delta69Actual";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="** Delta Actual";
+				};
+				class Item1
+				{
+					position[]={1207.432,40.909431,121.27432};
+					azimut=-4.8603501;
+					special="NONE";
+					id=48;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Delta_1_1";
+					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Delta 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1207.4081,40.912563,119.82004};
+					azimut=-4.8603501;
+					special="NONE";
+					id=52;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AR_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta691692";
+					init="this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Delta 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1207.423,40.925011,118.62355};
+					azimut=-4.8603501;
+					special="NONE";
+					id=56;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta691693";
+					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Delta 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1207.4579,40.941429,117.09532};
+					azimut=-4.8603501;
+					special="NONE";
+					id=49;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_AT_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta691694";
+					init="this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Delta 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1210.4362,40.917782,121.22556};
+					azimut=-4.8603501;
+					special="NONE";
+					id=50;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_TL_D";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Delta_2_1";
+					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="=== Delta 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1210.4309,40.927425,119.92218};
+					azimut=-4.8603601;
+					special="NONE";
+					id=53;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692692";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Delta 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1210.418,40.992004,118.48781};
+					azimut=-4.8603501;
+					special="NONE";
+					id=55;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692693";
+					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Delta 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1210.4283,41.037876,117.10439};
+					azimut=-4.8603601;
+					special="NONE";
+					id=54;
+					side="WEST";
+					vehicle="ACE_USMC_SoldierS_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta692694";
+					init="this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Delta 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1208.8955,40.895435,124.0267};
+					azimut=179.159;
+					special="NONE";
+					id=51;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Medic_D";
+					player="PLAY CDG";
+					skill=1;
+					text="Delta69Corpsman_Delta";
+					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Delta - Squad Medic";
+				};
+			};
+		};
+		class Item17
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1197.9822,40.660709,138.27901};
+					azimut=-178.55;
+					special="NONE";
+					id=57;
+					side="WEST";
+					vehicle="US_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="Pegasus691691";
+					init="pegasus1_grp = group this; (group this) setGroupId [""Pegasus 1""]; id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="== Pegasus 1'1 - Pilot";
+				};
+				class Item1
+				{
+					position[]={1199.2737,40.718369,138.31581};
+					azimut=-178.55;
+					id=58;
+					side="WEST";
+					vehicle="US_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="Pegasus691692";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Pegasus 1'2 - Pilot";
+				};
+			};
+		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1198.0437,40.643021,140.04675};
+					azimut=-178.55;
+					special="NONE";
+					id=59;
+					side="WEST";
+					vehicle="US_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="Pegasus692691";
+					init="pegasus2_grp = group this; (group this) setGroupId [""Pegasus 2""]; id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="== Pegasus 2'1 - Pilot";
+				};
+				class Item1
+				{
+					position[]={1199.2856,40.698463,140.02715};
+					azimut=-178.55;
+					id=60;
+					side="WEST";
+					vehicle="US_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					rank="LIEUTENANT";
+					skill=0.60000002;
+					text="Pegasus692692";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Pegasus 2'2 - Pilot";
+				};
+			};
+		};
+		class Item19
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1199.7146,40.445644,111.53636};
+					azimut=-3.03982;
+					special="NONE";
+					id=61;
+					side="WEST";
+					vehicle="US_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CAPTAIN";
+					skill=0.60000002;
+					text="Omega691691";
+					init="overwatch_grp_blu = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Omega'1 - Sniper/Overwatch";
+				};
+				class Item1
+				{
+					position[]={1203.3685,40.549679,111.58621};
+					azimut=-3.03982;
+					special="NONE";
+					id=62;
+					side="WEST";
+					vehicle="US_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="Omega691692";
+					init=" id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Omega'2 - Sniper/Overwatch";
+				};
+				class Item2
+				{
+					position[]={1207.1799,40.815933,111.53284};
+					azimut=-3.03982;
+					special="NONE";
+					id=63;
+					side="WEST";
+					vehicle="US_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="Omega691693";
+					init=" id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Omega'3 - Sniper/Overwatch";
+				};
+				class Item3
+				{
+					position[]={1210.3666,40.962975,111.56625};
+					azimut=-3.03982;
+					special="NONE";
+					id=64;
+					side="WEST";
+					vehicle="US_Soldier_Sniper_EP1";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="Omega691694";
+					init=" id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="Omega'4 - Sniper/Overwatch";
+				};
+			};
+		};
+		class Item20
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1193.9017,40.464489,140.32405};
+					azimut=-181.05099;
+					special="NONE";
+					id=65;
+					side="WEST";
+					vehicle="US_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="Hermes69Actual";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_blu = group this;  id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="** Hermes Actual - Medical Support";
+				};
+				class Item1
+				{
+					position[]={1193.0193,40.458164,141.53807};
+					azimut=-181.05099;
+					special="NONE";
+					id=66;
+					side="WEST";
+					vehicle="US_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Hermes692";
+					init=" id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Hermes'2";
+				};
+				class Item2
+				{
+					position[]={1194.7482,40.535355,141.57458};
+					azimut=-181.05099;
+					special="NONE";
+					id=67;
+					side="WEST";
+					vehicle="US_Soldier_Medic_EP1";
+					player="PLAY CDG";
+					rank="SERGEANT";
+					skill=1;
+					text="Hermes693";
+					init=" id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Hermes'3";
+				};
+			};
+		};
+		class Item21
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1191.6487,40.450214,127.92932};
+					azimut=183.265;
+					id=81;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=0.60000002;
+					text="Titan69Actual";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="== Titan Actual - Armor crew";
+				};
+				class Item1
+				{
+					position[]={1190.646,40.445301,128.75037};
+					azimut=183.265;
+					id=82;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Titan692";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Titan'2";
+				};
+				class Item2
+				{
+					position[]={1192.7725,40.473549,128.72437};
+					azimut=183.265;
+					id=83;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Titan693";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Titan'3";
+				};
+			};
+		};
+		class Item22
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1194.4338,40.509724,132.40149};
+					azimut=183.265;
+					id=86;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Lance69169Actual";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="== Lance 1 Actual - LAV crew";
+				};
+				class Item1
+				{
+					position[]={1195.3936,40.558865,133.19543};
+					azimut=183.265;
+					id=88;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Lance691693";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Lance 1'3";
+				};
+				class Item2
+				{
+					position[]={1193.4312,40.476006,133.22253};
+					azimut=183.265;
+					id=87;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Lance691692";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Lance 1'2";
+				};
+			};
+		};
+		class Item23
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1189.0762,40.413681,132.44434};
+					azimut=183.265;
+					id=89;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Lance69269Actual";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="== Lance 2 Actual - LAV crew";
+				};
+				class Item1
+				{
+					position[]={1190.0359,40.412022,133.23828};
+					azimut=183.265;
+					id=91;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Lance692693";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Lance 2'3";
+				};
+				class Item2
+				{
+					position[]={1188.0735,40.431915,133.26538};
+					azimut=183.265;
+					id=90;
+					side="WEST";
+					vehicle="ACE_USMC_Soldier_Crew_D";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Lance692692";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					description="     Lance 2'2";
+				};
+			};
+		};
+		class Item24
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1918.0336,46.830921,-133.51245};
+					id=94;
+					side="LOGIC";
+					vehicle="ACE_AITalk_Logic";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item25
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1956.3389,47.78693,-136.94055};
+					id=97;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="DAC_Pos_E";
+					description="PLACE THIS FAR AWAY FROM THE MAIN UNITS";
+				};
+			};
+		};
+		class Item26
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1971.0245,48.499256,-136.52368};
+					id=98;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=1;
+					text="DAC_Support_Logic";
+				};
+			};
+		};
+		class Item27
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1971.5621,48.531158,-122.80127};
+					id=99;
+					side="LOGIC";
+					vehicle="DAC_Source_Extern";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item28
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1828.949,44.105865,136.44922};
+					azimut=180.459;
+					special="NONE";
+					id=104;
+					side="EAST";
+					vehicle="RU_Soldier_Officer";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1;
+					text="Zero69Actual_op";
+					init="(group this) setGroupId [""Zero""]; id = [""CO"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="** Zero Actual - Commanding Officer **";
+				};
+				class Item1
+				{
+					position[]={1828.907,44.110344,138.32361};
+					azimut=180.459;
+					special="NONE";
+					id=105;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Platoon69Medic_op";
+					init="(group this) setGroupId [""Zero""]; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Zero'2 Medic";
+				};
+			};
+		};
+		class Item29
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1825.4744,44.014236,131.56213};
+					azimut=180.459;
+					special="NONE";
+					id=107;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Alpha69Actual_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="** Alpha Actual";
+				};
+				class Item1
+				{
+					position[]={1824.1931,43.993988,129.68823};
+					azimut=358.186;
+					special="NONE";
+					id=109;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Alpha_1_1_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Alpha 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1824.1797,43.979252,128.19495};
+					azimut=359.98999;
+					special="NONE";
+					id=110;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha691692_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Alpha 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1824.2124,43.957573,127.03784};
+					azimut=359.98999;
+					special="NONE";
+					id=111;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha691693_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Alpha 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1824.2205,43.93121,125.72583};
+					azimut=359.98999;
+					special="NONE";
+					id=112;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha691694_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Alpha 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1826.8064,43.965569,129.71802};
+					azimut=358.186;
+					special="NONE";
+					id=108;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Alpha_2_1_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Alpha 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1826.8401,43.939686,128.22888};
+					azimut=359.98999;
+					special="NONE";
+					id=113;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha692692_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Alpha 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1826.8752,43.916924,127.00269};
+					azimut=359.98999;
+					special="NONE";
+					id=114;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha692693_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Alpha 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1826.9099,43.89257,125.81116};
+					azimut=359.98999;
+					special="NONE";
+					id=115;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha692694_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""RED""; id = [""JTAC"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Alpha 2'4 - JTAC";
+				};
+				class Item9
+				{
+					position[]={1825.4653,44.027328,132.5177};
+					azimut=180.459;
+					special="NONE";
+					id=106;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha69Corpsman_op";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_op = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Alpha - Squad Medic";
+				};
+			};
+		};
+		class Item30
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1831.5887,44.022789,131.67041};
+					azimut=180.459;
+					special="NONE";
+					id=117;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Bravo69Actual_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="** Bravo Actual";
+				};
+				class Item1
+				{
+					position[]={1830.3069,43.979145,129.79651};
+					azimut=358.186;
+					special="NONE";
+					id=119;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Bravo_1_1_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Bravo 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1830.2937,43.934834,128.30322};
+					azimut=359.98999;
+					special="NONE";
+					id=120;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo691692_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Bravo 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1830.3264,43.917278,127.14612};
+					azimut=359.98999;
+					special="NONE";
+					id=121;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo691693_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Bravo 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1830.3347,43.904175,125.83411};
+					azimut=359.98999;
+					special="NONE";
+					id=122;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo691694_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""BLUE"";id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Bravo 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1832.9202,43.98716,129.82629};
+					azimut=358.186;
+					special="NONE";
+					id=118;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Bravo_2_1_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Bravo 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1832.9539,43.950356,128.33716};
+					azimut=359.98999;
+					special="NONE";
+					id=123;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo692692_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Bravo 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1832.989,43.929028,127.11096};
+					azimut=359.98999;
+					special="NONE";
+					id=124;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo692693_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Bravo 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1833.0237,43.916874,125.91943};
+					azimut=359.98999;
+					special="NONE";
+					id=125;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo692694_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Bravo 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1831.5795,44.041981,132.62598};
+					azimut=180.459;
+					special="NONE";
+					id=116;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo69Corpsman_op";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_op = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Bravo - Squad Medic";
+				};
+			};
+		};
+		class Item31
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1825.5557,43.84919,121.7417};
+					azimut=180.459;
+					special="NONE";
+					id=127;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Charlie69Actual_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="** Charlie Actual";
+				};
+				class Item1
+				{
+					position[]={1824.2744,43.809341,119.8678};
+					azimut=358.186;
+					special="NONE";
+					id=129;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Charlie_1_1_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Charlie 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1824.261,43.791637,118.37451};
+					azimut=359.98999;
+					special="NONE";
+					id=130;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie691692_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""BLUE"";  id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Charlie 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1824.2937,43.777416,117.21741};
+					azimut=359.98999;
+					special="NONE";
+					id=131;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie691693_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Charlie 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1824.3018,43.762497,115.9054};
+					azimut=359.98999;
+					special="NONE";
+					id=132;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie691694_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Charlie 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1826.8875,43.80949,119.89758};
+					azimut=358.186;
+					special="NONE";
+					id=128;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Charlie_2_1_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Charlie 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1826.9211,43.802044,118.40845};
+					azimut=359.98999;
+					special="NONE";
+					id=133;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie692692_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Charlie 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1826.9563,43.795914,117.18225};
+					azimut=359.98999;
+					special="NONE";
+					id=134;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie692693_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Charlie 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1826.991,43.782455,115.99072};
+					azimut=359.98999;
+					special="NONE";
+					id=135;
+					side="EAST";
+					vehicle="RU_Soldier_Marksman";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie692694_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Charlie 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1825.5466,43.867031,122.69727};
+					azimut=180.459;
+					special="NONE";
+					id=126;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie69Corpsman_op";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_op = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Charlie - Squad Medic";
+				};
+			};
+		};
+		class Item32
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1831.7264,43.880981,121.75891};
+					azimut=180.459;
+					special="NONE";
+					id=137;
+					side="EAST";
+					vehicle="RU_Soldier_SL";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Delta69Actual_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="** Delta Actual";
+				};
+				class Item1
+				{
+					position[]={1830.4451,43.852505,119.88501};
+					azimut=358.186;
+					special="NONE";
+					id=139;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Delta_1_1_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Delta 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1830.4314,43.84853,118.39172};
+					azimut=359.98999;
+					special="NONE";
+					id=140;
+					side="EAST";
+					vehicle="RU_Soldier_AR";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta691692_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Delta 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1830.4641,43.845455,117.23462};
+					azimut=359.98999;
+					special="NONE";
+					id=141;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta691693_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Delta 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1830.4724,43.839642,115.92261};
+					azimut=359.98999;
+					special="NONE";
+					id=142;
+					side="EAST";
+					vehicle="RU_Soldier_AT";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta691694_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Delta 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1833.0579,43.899155,119.91479};
+					azimut=358.186;
+					special="NONE";
+					id=138;
+					side="EAST";
+					vehicle="RU_Soldier_TL";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Delta_2_1_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="=== Delta 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1833.092,43.906097,118.42566};
+					azimut=359.98999;
+					special="NONE";
+					id=143;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta692692_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Delta 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1833.1267,43.90398,117.19946};
+					azimut=359.98999;
+					special="NONE";
+					id=144;
+					side="EAST";
+					vehicle="RU_Soldier";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta692693_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Delta 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1833.1619,43.90197,116.00793};
+					azimut=359.98999;
+					special="NONE";
+					id=145;
+					side="EAST";
+					vehicle="RU_Soldier_Marksman";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta692694_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Delta 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1831.7172,43.883251,122.71448};
+					azimut=180.459;
+					special="NONE";
+					id=136;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta69Corpsman_op";
+					init="(group this) setGroupId [""Delta""]; delta_grp_op = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Delta - Squad Medic";
+				};
+			};
+		};
+		class Item33
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1818.2986,43.962616,136.77026};
+					azimut=538.18298;
+					special="NONE";
+					id=147;
+					side="EAST";
+					vehicle="RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus691691_op";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="== Pegasus 1'1 - Pilot";
+				};
+				class Item1
+				{
+					position[]={1819.5518,43.971123,136.7749};
+					azimut=538.18298;
+					special="NONE";
+					id=146;
+					side="EAST";
+					vehicle="RU_Soldier_Pilot";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Pegasus691692_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Pegasus 1'2 - Pilot";
+				};
+			};
+		};
+		class Item34
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1818.3147,43.974213,138.77563};
+					azimut=538.18298;
+					special="NONE";
+					id=149;
+					side="EAST";
+					vehicle="RU_Soldier_Pilot";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus692691_op";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="== Pegasus 2'1 - Pilot";
+				};
+				class Item1
+				{
+					position[]={1819.5676,43.971081,138.78027};
+					azimut=538.18298;
+					special="NONE";
+					id=148;
+					side="EAST";
+					vehicle="RU_Soldier_Pilot";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus692692_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Pegasus 2'2 - Pilot";
+				};
+			};
+		};
+		class Item35
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1823.3467,43.732006,112.35144};
+					azimut=718.77502;
+					special="NONE";
+					id=162;
+					side="EAST";
+					vehicle="RU_Soldier_Sniper";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Omega691691_op";
+					init="overwatch_grp_op = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Omega'1 - Sniper/Overwatch";
+				};
+				class Item1
+				{
+					position[]={1827.0359,43.785912,112.37134};
+					azimut=718.77502;
+					special="NONE";
+					id=163;
+					side="EAST";
+					vehicle="RU_Soldier_Sniper";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Omega691692_op";
+					init="overwatch_grp_op = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Omega'2 - Sniper/Overwatch";
+				};
+				class Item2
+				{
+					position[]={1830.8436,43.85601,112.34485};
+					azimut=718.77502;
+					special="NONE";
+					id=164;
+					side="EAST";
+					vehicle="RU_Soldier_Sniper";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Omega691693_op";
+					init="overwatch_grp_op = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Omega'3 - Sniper/Overwatch";
+				};
+				class Item3
+				{
+					position[]={1834.0745,43.93602,112.41162};
+					azimut=718.77502;
+					special="NONE";
+					id=165;
+					side="EAST";
+					vehicle="RU_Soldier_Sniper";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Omega691694_op";
+					init="overwatch_grp_op = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="Omega'4 - Sniper/Overwatch";
+				};
+			};
+		};
+		class Item36
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1812.803,43.956997,140.38879};
+					azimut=538.18298;
+					special="NONE";
+					id=152;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Hermes69Actual_op";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_op = group this;  id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="** Hermes Actual - Medical Support";
+				};
+				class Item1
+				{
+					position[]={1814.4158,43.969063,140.37915};
+					azimut=538.18298;
+					special="NONE";
+					id=151;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Hermes692_op";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_op = group this; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Hermes'2";
+				};
+				class Item2
+				{
+					position[]={1815.8625,43.980736,140.42224};
+					azimut=538.18298;
+					special="NONE";
+					id=150;
+					side="EAST";
+					vehicle="RU_Soldier_Medic";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Hermes693_op";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_op = group this; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Hermes'3";
+				};
+			};
+		};
+		class Item37
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1813.8645,43.859928,127.46118};
+					azimut=538.18298;
+					special="NONE";
+					id=160;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Titan69Actual_op";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="== Titan Actual - Armor crew";
+				};
+				class Item1
+				{
+					position[]={1812.8376,43.834087,128.4209};
+					azimut=538.18298;
+					special="NONE";
+					id=161;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Titan692_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Titan'2";
+				};
+				class Item2
+				{
+					position[]={1814.9866,43.893322,128.47754};
+					azimut=538.18298;
+					special="NONE";
+					id=159;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Titan693_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Titan'3";
+				};
+			};
+		};
+		class Item38
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1816.4875,43.910168,131.83301};
+					azimut=538.18298;
+					special="NONE";
+					id=154;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Lance69169Actual_op";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="== Lance 1 Actual - LAV crew";
+				};
+				class Item1
+				{
+					position[]={1815.4612,43.897861,132.79272};
+					azimut=538.18298;
+					special="NONE";
+					id=155;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Lance691692_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Lance 1'2";
+				};
+				class Item2
+				{
+					position[]={1817.6096,43.938564,132.84937};
+					azimut=538.18298;
+					special="NONE";
+					id=153;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Lance691693_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Lance 1'3";
+				};
+			};
+		};
+		class Item39
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1811.5471,43.809284,131.78931};
+					azimut=538.18298;
+					special="NONE";
+					id=157;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Lance69269Actual_op";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="== Lance 2 Actual - LAV crew";
+				};
+				class Item1
+				{
+					position[]={1812.6692,43.843456,132.80566};
+					azimut=538.18298;
+					special="NONE";
+					id=156;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Lance692693_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Lance 2'3";
+				};
+				class Item2
+				{
+					position[]={1810.5208,43.801697,132.74902};
+					azimut=538.18298;
+					special="NONE";
+					id=158;
+					side="EAST";
+					vehicle="RU_Soldier_Crew";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Lance692692_op";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\opfor.sqf"";";
+					description="     Lance 2'2";
+				};
+			};
+		};
+		class Item40
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1505.7394,43.439537,134.57471};
+					azimut=900.47601;
+					special="NONE";
+					id=166;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Officer_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="MAJOR";
+					skill=1;
+					text="Zero69Actual_ind";
+					init="(group this) setGroupId [""Zero""]; id = [""CO"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="** Zero Actual - Commanding Officer **";
+				};
+				class Item1
+				{
+					position[]={1505.6708,43.582573,136.51172};
+					azimut=900.47601;
+					special="NONE";
+					id=167;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Platoon69Medic_ind";
+					init="(group this) setGroupId [""Zero""]; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Zero'2 Medic";
+				};
+			};
+		};
+		class Item41
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1502.9896,43.018917,129.92981};
+					azimut=900.47601;
+					special="NONE";
+					id=168;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Alpha69Actual_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="** Alpha Actual";
+				};
+				class Item1
+				{
+					position[]={1501.4777,42.808693,128.29187};
+					azimut=1076.53;
+					special="NONE";
+					id=170;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Alpha_1_1_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Alpha 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1501.476,42.701878,126.90771};
+					azimut=1078.95;
+					special="NONE";
+					id=172;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_MG_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha691692_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Alpha 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1501.4713,42.600327,125.52332};
+					azimut=1078.95;
+					special="NONE";
+					id=173;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha691693_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Alpha 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1501.4772,42.490307,124.00195};
+					azimut=1078.95;
+					special="NONE";
+					id=174;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_AT_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha691694_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Alpha 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1504.1696,42.941574,128.33643};
+					azimut=1076.53;
+					special="NONE";
+					id=171;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Alpha_2_1_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Alpha 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1504.142,42.833561,126.93823};
+					azimut=1078.95;
+					special="NONE";
+					id=175;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha692692_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Alpha 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1504.1715,42.727333,125.51294};
+					azimut=1078.95;
+					special="NONE";
+					id=176;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha692693_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Alpha 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1504.1403,42.616333,124.04236};
+					azimut=1078.95;
+					special="NONE";
+					id=177;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha692694_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""RED""; id = [""JTAC"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Alpha 2'4 - JTAC";
+				};
+				class Item9
+				{
+					position[]={1502.9791,43.094685,130.88281};
+					azimut=900.47601;
+					special="NONE";
+					id=169;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Alpha69Corpsman_ind";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_ind = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Alpha - Squad Medic";
+				};
+			};
+		};
+		class Item42
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1510.1373,43.230621,129.8313};
+					azimut=900.47601;
+					special="NONE";
+					id=178;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Bravo69Actual_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="** Bravo Actual";
+				};
+				class Item1
+				{
+					position[]={1508.5956,43.065224,128.34192};
+					azimut=1076.53;
+					special="NONE";
+					id=180;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Bravo_1_1_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Bravo 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1508.6234,42.934086,126.8092};
+					azimut=1078.95;
+					special="NONE";
+					id=182;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_MG_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo691692_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Bravo 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1508.619,42.823269,125.4248};
+					azimut=1078.95;
+					special="NONE";
+					id=183;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo691693_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Bravo 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1508.6246,42.70406,123.90344};
+					azimut=1078.95;
+					special="NONE";
+					id=184;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_AT_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo691694_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""BLUE"";id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Bravo 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1511.2133,43.147697,128.39124};
+					azimut=1076.53;
+					special="NONE";
+					id=181;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Bravo_2_1_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Bravo 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1511.2894,43.008457,126.83972};
+					azimut=1078.95;
+					special="NONE";
+					id=185;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo692692_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Bravo 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1511.3192,42.873947,125.41443};
+					azimut=1078.95;
+					special="NONE";
+					id=186;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo692693_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Bravo 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1511.2877,42.746223,123.94385};
+					azimut=1078.95;
+					special="NONE";
+					id=187;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo692694_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Bravo 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1510.1268,43.315659,130.7843};
+					azimut=900.47601;
+					special="NONE";
+					id=179;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Bravo69Corpsman_ind";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_ind = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Bravo - Squad Medic";
+				};
+			};
+		};
+		class Item43
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1502.7926,42.278908,120.51465};
+					azimut=900.47601;
+					special="NONE";
+					id=188;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Charlie69Actual_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="** Charlie Actual";
+				};
+				class Item1
+				{
+					position[]={1501.2806,42.164619,118.87671};
+					azimut=1076.53;
+					special="NONE";
+					id=190;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Charlie_1_1_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Charlie 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1501.2787,42.081932,117.49255};
+					azimut=1078.95;
+					special="NONE";
+					id=192;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_MG_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie691692_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""BLUE"";  id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Charlie 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1501.2743,41.998791,116.10815};
+					azimut=1078.95;
+					special="NONE";
+					id=193;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie691693_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Charlie 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1501.2799,41.922272,114.58679};
+					azimut=1078.95;
+					special="NONE";
+					id=194;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_AT_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie691694_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Charlie 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1503.9186,42.207348,118.93164};
+					azimut=1076.53;
+					special="NONE";
+					id=191;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Charlie_2_1_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Charlie 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1503.9205,42.116737,117.35522};
+					azimut=1078.95;
+					special="NONE";
+					id=195;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie692692_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Charlie 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1503.9503,42.035805,115.92993};
+					azimut=1078.95;
+					special="NONE";
+					id=196;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie692693_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Charlie 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1503.9188,41.965401,114.45935};
+					azimut=1078.95;
+					special="NONE";
+					id=197;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie692694_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Charlie 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1502.7821,42.336903,121.46765};
+					azimut=900.47601;
+					special="NONE";
+					id=189;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Charlie69Corpsman_ind";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_ind = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Charlie - Squad Medic";
+				};
+			};
+		};
+		class Item44
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=10;
+				class Item0
+				{
+					position[]={1510.236,42.506073,120.41577};
+					azimut=900.47601;
+					special="NONE";
+					id=198;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Delta69Actual_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; id = [""SL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="** Delta Actual";
+				};
+				class Item1
+				{
+					position[]={1508.724,42.339401,118.77783};
+					azimut=1076.53;
+					special="NONE";
+					id=200;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL691_Delta_1_1_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Delta 1'1 - Fireteam Leader";
+				};
+				class Item2
+				{
+					position[]={1508.722,42.238949,117.39368};
+					azimut=1078.95;
+					special="NONE";
+					id=202;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_MG_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta691692_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Delta 1'2 - Automatic Rifleman";
+				};
+				class Item3
+				{
+					position[]={1508.7177,42.138348,116.00928};
+					azimut=1078.95;
+					special="NONE";
+					id=203;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta691693_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Delta 1'3 - Rifleman";
+				};
+				class Item4
+				{
+					position[]={1508.7233,42.099186,114.48792};
+					azimut=1078.95;
+					special="NONE";
+					id=204;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_AT_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta691694_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Delta 1'4 - AT Specialist";
+				};
+				class Item5
+				{
+					position[]={1511.3676,42.447155,118.79773};
+					azimut=1076.53;
+					special="NONE";
+					id=201;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_SL_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="FTL692_Delta_2_1_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="=== Delta 2'1 - Fireteam Leader";
+				};
+				class Item6
+				{
+					position[]={1511.3695,42.356583,117.22131};
+					azimut=1078.95;
+					special="NONE";
+					id=205;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta692692_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Delta 2'2 - Rifleman";
+				};
+				class Item7
+				{
+					position[]={1511.3993,42.276424,115.79602};
+					azimut=1078.95;
+					special="NONE";
+					id=206;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta692693_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Delta 2'3 - Rifleman";
+				};
+				class Item8
+				{
+					position[]={1511.3678,42.260063,114.32544};
+					azimut=1078.95;
+					special="NONE";
+					id=207;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta692694_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Delta 2'4 - Designated Marksman";
+				};
+				class Item9
+				{
+					position[]={1510.2255,42.579533,121.36877};
+					azimut=900.47601;
+					special="NONE";
+					id=199;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					skill=1;
+					text="Delta69Corpsman_ind";
+					init="(group this) setGroupId [""Delta""]; delta_grp_ind = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Delta - Squad Medic";
+				};
+			};
+		};
+		class Item45
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1495.1901,43.284706,134.89929};
+					azimut=900.47601;
+					special="NONE";
+					id=211;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus691691_ind";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="== Pegasus 1'1 - Pilot";
+				};
+				class Item1
+				{
+					position[]={1497.3097,43.300632,134.94861};
+					azimut=900.47601;
+					special="NONE";
+					id=210;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus691692_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Pegasus 1'2 - Pilot";
+				};
+			};
+		};
+		class Item46
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={1495.1901,43.458862,136.87085};
+					azimut=900.47601;
+					special="NONE";
+					id=209;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus692691_ind";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="== Pegasus 2'1 - Pilot";
+				};
+				class Item1
+				{
+					position[]={1497.3097,43.482018,136.92017};
+					azimut=900.47601;
+					special="NONE";
+					id=208;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Pilot_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="LIEUTENANT";
+					skill=1;
+					text="Pegasus692692_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Pegasus 2'2 - Pilot";
+				};
+			};
+		};
+		class Item47
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={1500.7406,41.679909,111.41162};
+					azimut=1080.13;
+					special="NONE";
+					id=224;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Guard_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Omega691691_ind";
+					init="overwatch_grp_ind = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Omega'1 - Sniper/Overwatch";
+				};
+				class Item1
+				{
+					position[]={1504.5118,41.843727,111.47107};
+					azimut=1080.13;
+					special="NONE";
+					id=225;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Guard_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Omega691692_ind";
+					init="overwatch_grp_ind = group this; (group this) setGroupId [""Omega""];  id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Omega'2 - Sniper/Overwatch";
+				};
+				class Item2
+				{
+					position[]={1508.1744,41.93782,111.5304};
+					azimut=1080.13;
+					special="NONE";
+					id=226;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Guard_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Omega691693_ind";
+					init="overwatch_grp_ind = group this; (group this) setGroupId [""Omega""];  id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Omega'3 - Sniper/Overwatch";
+				};
+				class Item3
+				{
+					position[]={1511.5641,42.216442,111.56006};
+					azimut=1080.13;
+					special="NONE";
+					id=227;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Guard_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Omega691694_ind";
+					init="overwatch_grp_ind = group this; (group this) setGroupId [""Omega""];  id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="Omega'4 - Sniper/Overwatch";
+				};
+			};
+		};
+		class Item48
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1487.6483,43.59911,137.9585};
+					azimut=900.47601;
+					special="NONE";
+					id=214;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="CAPTAIN";
+					skill=1;
+					text="Hermes69Actual_ind";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_ind = group this;  id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="** Hermes Actual - Medical Support";
+				};
+				class Item1
+				{
+					position[]={1489.7184,43.583305,137.9552};
+					azimut=900.47601;
+					special="NONE";
+					id=213;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Hermes692_ind";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_ind = group this; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Hermes'2";
+				};
+				class Item2
+				{
+					position[]={1491.838,43.553173,138.00452};
+					azimut=900.47601;
+					special="NONE";
+					id=212;
+					side="GUER";
+					vehicle="ACE_UN_CDF_Medic_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Hermes693_ind";
+					init="(group this) setGroupId [""Hermes""]; hermes_grp_ind = group this; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Hermes'3";
+				};
+			};
+		};
+		class Item49
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1491.3932,42.733341,126.63452};
+					azimut=900.47601;
+					special="NONE";
+					id=223;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Titan69Actual_ind";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="== Titan Actual - Armor crew";
+				};
+				class Item1
+				{
+					position[]={1490.4467,42.801487,127.47131};
+					azimut=900.47601;
+					special="NONE";
+					id=222;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Titan692_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Titan'2";
+				};
+				class Item2
+				{
+					position[]={1492.5072,42.734516,127.53601};
+					azimut=900.47601;
+					special="NONE";
+					id=221;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Titan693_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Titan'3";
+				};
+			};
+		};
+		class Item50
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1493.9974,42.850151,129.7428};
+					azimut=900.47601;
+					special="NONE";
+					id=217;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Lance69169Actual_ind";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="== Lance 1 Actual - LAV crew";
+				};
+				class Item1
+				{
+					position[]={1493.0509,42.945766,130.57959};
+					azimut=900.47601;
+					special="NONE";
+					id=216;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Lance691692_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Lance 1'2";
+				};
+				class Item2
+				{
+					position[]={1495.1117,42.90136,130.64429};
+					azimut=900.47601;
+					special="NONE";
+					id=215;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Lance691693_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Lance 1'3";
+				};
+			};
+		};
+		class Item51
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={1488.5958,42.960514,129.65027};
+					azimut=900.47601;
+					special="NONE";
+					id=220;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					leader=1;
+					lock="UNLOCKED";
+					rank="SERGEANT";
+					skill=1;
+					text="Lance69269Actual_ind";
+					init="id = [""crew_c"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="== Lance 2 Actual - LAV crew";
+				};
+				class Item1
+				{
+					position[]={1487.6493,43.009369,130.48706};
+					azimut=900.47601;
+					special="NONE";
+					id=219;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Lance692692_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Lance 2'2";
+				};
+				class Item2
+				{
+					position[]={1489.7098,42.97776,130.55176};
+					azimut=900.47601;
+					special="NONE";
+					id=218;
+					side="GUER";
+					vehicle="UN_CDF_Soldier_Crew_EP1";
+					player="PLAY CDG";
+					lock="UNLOCKED";
+					rank="CORPORAL";
+					skill=1;
+					text="Lance692693_ind";
+					init="id = [""crew"", this] call compile preprocessFileLineNumbers ""mission\loadout\independent.sqf"";";
+					description="     Lance 2'3";
+				};
+			};
+		};
+		class Item52
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1666.5735,42.786579,-88.369629};
+					special="NONE";
+					id=246;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.33333331;
+					text="setupbarrier";
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=44;
+		class Item0
+		{
+			position[]={1900.7649,45.932274,-102.66589};
+			id=8;
+			side="AMBIENT LIFE";
+			vehicle="Rabbit";
+			player="PLAY CDG";
+			leader=1;
+			skill=0.2;
+			text="spec1";
+			init="this addWeapon ""ItemMap"";";
+			description="Camera";
+		};
+		class Item1
+		{
+			position[]={1910.3436,46.1259,-102.33851};
+			id=9;
+			side="AMBIENT LIFE";
+			vehicle="Rabbit";
+			player="PLAY CDG";
+			leader=1;
+			skill=0.2;
+			text="spec2";
+			init="this addWeapon ""ItemMap"";";
+			description="Spectator";
+		};
+		class Item2
+		{
+			position[]={1919.8322,46.443024,-102.18713};
+			id=10;
+			side="AMBIENT LIFE";
+			vehicle="Rabbit";
+			player="PLAY CDG";
+			leader=1;
+			skill=0.2;
+			text="spec3";
+			init="this addWeapon ""ItemMap"";";
+			description="Spectator";
+		};
+		class Item3
+		{
+			position[]={1203.9684,40.759365,144.02278};
+			azimut=0.10942769;
+			id=68;
+			side="EMPTY";
+			vehicle="CampEast_EP1";
+			skill=0.60000002;
+		};
+		class Item4
+		{
+			position[]={1204.0414,40.704205,145.23303};
+			azimut=269.733;
+			id=69;
+			side="EMPTY";
+			vehicle="MAP_office_table_a";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item5
+		{
+			position[]={1203.9795,40.712215,145.07321};
+			azimut=-0.26717091;
+			id=70;
+			side="EMPTY";
+			vehicle="MAP_notebook";
+			leader=1;
+			skill=0.60000002;
+			init="this setPos [getPos this select 0, getPos this select 1, 0.7];";
+		};
+		class Item6
+		{
+			position[]={1175.4789,40.265236,145.2738};
+			id=71;
+			side="EMPTY";
+			vehicle="HMMWV_M1151_M2_DES_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			text="hmv1";
+			init="id = [""ammo"",this,west] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item7
+		{
+			position[]={1170.7283,40.158039,145.31085};
+			id=72;
+			side="EMPTY";
+			vehicle="HMMWV_MK19_DES_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="id = [""ammo"",this,west] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item8
+		{
+			position[]={1157.3667,40.397892,143.72543};
+			id=73;
+			side="EMPTY";
+			vehicle="MtvrRefuel_DES_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item9
+		{
+			position[]={1152.1207,40.498806,143.68509};
+			id=74;
+			side="EMPTY";
+			vehicle="MtvrReammo_DES_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item10
+		{
+			position[]={1146.9326,40.651634,143.67334};
+			id=75;
+			side="EMPTY";
+			vehicle="MtvrRepair_DES_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={1165.9976,40.135666,143.86542};
+			id=76;
+			side="EMPTY";
+			vehicle="MTVR_DES_EP1";
+			skill=0.60000002;
+			init="id = [""ammo_big"",this,west] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item12
+		{
+			position[]={1161.8112,40.14677,145.32388};
+			azimut=-359.96799;
+			special="NONE";
+			id=77;
+			side="EMPTY";
+			vehicle="HMMWV_Ambulance_DES_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""medical"",this,west] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item13
+		{
+			position[]={1157.8031,40.610527,122.70834};
+			special="NONE";
+			id=78;
+			side="EMPTY";
+			vehicle="A10_US_EP1_JDAM";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={1128.9415,40.638897,145.3472};
+			id=79;
+			side="EMPTY";
+			vehicle="CH_47F_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+			init="id = [""ammo_big"",this,west] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item15
+		{
+			position[]={1132.3241,40.376377,121.36725};
+			id=80;
+			side="EMPTY";
+			vehicle="AH6J_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={1174.7396,40.242355,133.64465};
+			id=84;
+			side="EMPTY";
+			vehicle="ACE_M1A1HC_DESERT";
+			leader=1;
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={1166.5265,40.471222,133.23572};
+			id=85;
+			side="EMPTY";
+			vehicle="M2A2_EP1";
+			leader=1;
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item18
+		{
+			position[]={1122.77,40.251019,121.3714};
+			id=92;
+			side="EMPTY";
+			vehicle="MH6J_EP1";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item19
+		{
+			position[]={1141.5284,40.50235,121.4682};
+			id=93;
+			side="EMPTY";
+			vehicle="ACE_AH6J_DAGR_FLIR";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item20
+		{
+			position[]={1192.1611,40.52438,148.06291};
+			azimut=448.798;
+			id=95;
+			side="EMPTY";
+			vehicle="US_WarfareBFieldhHospital_Base_EP1";
+			skill=0.60000002;
+		};
+		class Item21
+		{
+			position[]={1198.6146,40.650177,145.06471};
+			azimut=-359.96878;
+			id=96;
+			side="EMPTY";
+			vehicle="FlagCarrierRedCross_EP1";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item22
+		{
+			position[]={1195.101,40.703255,144.00122};
+			special="NONE";
+			id=100;
+			side="EMPTY";
+			vehicle="ACE_BandageBoxWest";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item23
+		{
+			position[]={1192.8658,40.639946,144.01892};
+			special="NONE";
+			id=101;
+			side="EMPTY";
+			vehicle="ACE_BandageBoxWest";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item24
+		{
+			position[]={1192.866,40.490429,142.96228};
+			special="NONE";
+			id=102;
+			side="EMPTY";
+			vehicle="ACE_BandageBoxWest";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item25
+		{
+			position[]={1195.1361,40.581699,142.9447};
+			special="NONE";
+			id=103;
+			side="EMPTY";
+			vehicle="ACE_BandageBoxWest";
+			lock="UNLOCKED";
+			skill=0.60000002;
+		};
+		class Item26
+		{
+			position[]={1782.924,43.64045,139.53371};
+			special="NONE";
+			id=228;
+			side="EMPTY";
+			vehicle="T72_TK_EP1";
+			skill=1;
+		};
+		class Item27
+		{
+			position[]={1769.7891,43.299206,134.62924};
+			special="NONE";
+			id=229;
+			side="EMPTY";
+			vehicle="Mi17_TK_EP1";
+			skill=1;
+			init="id = [""ammo"",this,east] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item28
+		{
+			position[]={1769.4746,43.271996,109.94707};
+			special="NONE";
+			id=230;
+			side="EMPTY";
+			vehicle="Mi24_D_TK_EP1";
+			skill=1;
+			init="id = [""ammo"",this,east] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item29
+		{
+			position[]={1797.0024,43.626526,118.84431};
+			special="NONE";
+			id=231;
+			side="EMPTY";
+			vehicle="Su25_TK_EP1";
+			skill=1;
+		};
+		class Item30
+		{
+			position[]={1473.7421,42.302559,123.53336};
+			azimut=89.944199;
+			special="NONE";
+			id=232;
+			side="EMPTY";
+			vehicle="Mi17_UN_CDF_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item31
+		{
+			position[]={1787.5736,43.70034,138.19498};
+			special="NONE";
+			id=233;
+			side="EMPTY";
+			vehicle="V3S_TK_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,east] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item32
+		{
+			position[]={1795.0238,43.624134,137.91652};
+			special="NONE";
+			id=234;
+			side="EMPTY";
+			vehicle="V3S_TK_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,east] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item33
+		{
+			position[]={1791.097,43.675812,139.48125};
+			azimut=-0.63670802;
+			special="NONE";
+			id=235;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_TK_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""medical"",this,east] execVM ""mission\loadout\cargo.sqf""; ";
+		};
+		class Item34
+		{
+			position[]={1798.6765,43.62809,139.1261};
+			special="NONE";
+			id=236;
+			side="EMPTY";
+			vehicle="UAZ_MG_TK_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo"",this,east] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item35
+		{
+			position[]={1802.2255,43.661495,137.79564};
+			special="NONE";
+			id=237;
+			side="EMPTY";
+			vehicle="V3S_TK_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,east] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item36
+		{
+			position[]={1806.1322,43.776054,137.79578};
+			special="NONE";
+			id=238;
+			side="EMPTY";
+			vehicle="V3S_TK_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,east] execVM ""mission\loadout\cargo.sqf""; ";
+		};
+		class Item37
+		{
+			position[]={1461.7596,43.24929,136.1828};
+			azimut=359.82999;
+			special="NONE";
+			id=239;
+			side="EMPTY";
+			vehicle="BMP2_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item38
+		{
+			position[]={1465.7682,43.505219,137.08075};
+			azimut=359.526;
+			special="NONE";
+			id=240;
+			side="EMPTY";
+			vehicle="M113_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item39
+		{
+			position[]={1469.8878,43.644783,137.12758};
+			azimut=359.526;
+			special="NONE";
+			id=241;
+			side="EMPTY";
+			vehicle="M113_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item40
+		{
+			position[]={1477.0044,43.432228,135.45877};
+			azimut=359.74701;
+			special="NONE";
+			id=242;
+			side="EMPTY";
+			vehicle="Ural_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item41
+		{
+			position[]={1473.4799,43.68964,137.59363};
+			azimut=359.74701;
+			special="NONE";
+			id=243;
+			side="EMPTY";
+			vehicle="UAZ_Unarmed_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""medical"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item42
+		{
+			position[]={1480.5979,43.282936,135.35077};
+			azimut=359.74701;
+			special="NONE";
+			id=244;
+			side="EMPTY";
+			vehicle="Ural_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+		class Item43
+		{
+			position[]={1483.9839,43.313808,135.40979};
+			azimut=359.74701;
+			special="NONE";
+			id=245;
+			side="EMPTY";
+			vehicle="Ural_UN_EP1";
+			leader=1;
+			skill=1;
+			init="id = [""ammo_big"",this,resistance] execVM ""mission\loadout\cargo.sqf"";";
+		};
+	};
+	class Markers
+	{
+		items=19;
+		class Item0
+		{
+			position[]={1190.8794,40.741112,120.08418};
+			name="respawn_west";
+			type="Empty";
+		};
+		class Item1
+		{
+			position[]={1164.5632,38.834724,793.67065};
+			name="flag_blufor";
+			type="Faction_BLUFOR_EP1";
+			a=1.5;
+		};
+		class Item2
+		{
+			position[]={1818.3767,43.909653,122.9281};
+			name="respawn_east";
+			type="Empty";
+		};
+		class Item3
+		{
+			position[]={1498.9042,45.120979,499.77698};
+			name="ao";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorOrange";
+			fillName="Border";
+			a=520;
+			b=520;
+			drawBorder=1;
+		};
+		class Item4
+		{
+			position[]={1174.5355,37.805454,277.40784};
+			name="objmk";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="FDiagonal";
+			a=100;
+			b=20;
+		};
+		class Item5
+		{
+			position[]={1114.0367,44.978119,891.98914};
+			name="1";
+			text="DAC Zone";
+			type="Empty";
+			colorName="ColorBlue";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item6
+		{
+			position[]={1438.5692,41.520573,984.46411};
+			name="2";
+			text="Independent";
+			type="Empty";
+			colorName="ColorGreen";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item7
+		{
+			position[]={1802.5403,44.707256,982.44617};
+			name="3";
+			text="OPFOR";
+			type="Empty";
+			colorName="ColorRed";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item8
+		{
+			position[]={1459.1888,41.065456,892.09729};
+			name="2_1";
+			text="DAC Zone";
+			type="Empty";
+			colorName="ColorGreen";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item9
+		{
+			position[]={1452.9911,43.417049,523.54602};
+			name="2_1_1";
+			text="DAC Camp";
+			type="Empty";
+			colorName="ColorGreen";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item10
+		{
+			position[]={1115.891,54.691311,981.052};
+			name="1_1";
+			text="BLUFOR";
+			type="Empty";
+			colorName="ColorBlue";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item11
+		{
+			position[]={1131.2297,38.959476,526.99243};
+			name="1_2";
+			text="DAC Camp";
+			type="Empty";
+			colorName="ColorBlue";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item12
+		{
+			position[]={1791.4147,47.745808,895.23901};
+			name="3_1";
+			text="DAC Zone";
+			type="Empty";
+			colorName="ColorRed";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item13
+		{
+			position[]={1785.8521,46.116096,531.56641};
+			name="3_1_1";
+			text="DAC Camp";
+			type="Empty";
+			colorName="ColorRed";
+			a=0;
+			b=0;
+			angle=-52.288601;
+		};
+		class Item14
+		{
+			position[]={1497.4366,42.413059,124.09399};
+			name="respawn_resistance";
+			type="Empty";
+		};
+		class Item15
+		{
+			position[]={1509.7423,41.371944,803.15991};
+			name="flag_resistance";
+			type="Faction_INDFOR_EP1";
+			a=1.5;
+		};
+		class Item16
+		{
+			position[]={1837.8518,48.631355,797.46631};
+			name="flag_opfor";
+			type="Faction_OPFOR_EP1";
+			a=1.5;
+		};
+		class Item17
+		{
+			position[]={2029.0973,49.480206,-134.94824};
+			name="text1";
+			text="These are the default modules - don't mess with them.";
+			type="Empty";
+			colorName="ColorBlack";
+			a=0;
+			b=0;
+		};
+		class Item18
+		{
+			position[]={977.62451,41.452023,236.75342};
+			name="text2";
+			text="Example objective, must be captured by BLUFOR.";
+			type="Empty";
+			a=0;
+			b=0;
+		};
+	};
+	class Sensors
+	{
+		items=7;
+		class Item0
+		{
+			position[]={1174.2338,37.769917,276.77783};
+			a=100;
+			b=20;
+			rectangular=1;
+			activationBy="WEST SEIZED";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			text="OBJECTIVE";
+			expActiv="[""taskMain"", ""succeeded""] call SHK_Taskmaster_upd;";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={1168.812,39.434994,418.69385};
+			a=80;
+			b=80;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="c1";
+			expCond="true";
+			expActiv="nul = [""c1"",[1,0,0],[],[],[],[1,2,50,0,100,10,[z1]],[1,10,1,11,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={1501.849,41.837456,424.17664};
+			a=80;
+			b=80;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="c2";
+			expCond="true";
+			expActiv="nul = [""c2"",[2,0,0],[],[],[],[1,2,50,0,100,10,[z2]],[2,19,2,11,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={1834.5078,44.601311,425.70483};
+			a=80;
+			b=80;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="c3";
+			expCond="true";
+			expActiv="nul = [""c3"",[3,0,0],[],[],[],[1,2,50,0,100,10,[z3]],[0,8,0,11,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={1169.7821,38.384785,714.30444};
+			a=150;
+			b=150;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z1";
+			expCond="true";
+			expActiv="nul = [""z1"",[1,0,0],[3,3,10,5],[2,1,10,5],[1,1,10,5],[],[1,10,1,0,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={1502.4242,41.271301,715.41193};
+			a=150;
+			b=150;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z2";
+			expCond="true";
+			expActiv="nul = [""z2"",[2,0,0],[3,3,20,5],[2,1,10,5],[],[],[2,19,2,0,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={1829.1777,47.687733,716.54169};
+			a=150;
+			b=150;
+			rectangular=1;
+			activationBy="LOGIC";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="z3";
+			expCond="true";
+			expActiv="nul = [""z3"",[3,0,0],[3,3,20,6],[2,1,10,5],[1,1,10,5],[],[0,8,0,0,1]] spawn DAC_Zone";
+			class Effects
+			{
+			};
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=14786343;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=9705632;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"desert_e"
+	};
+	addOnsAuto[]=
+	{
+		"desert_e"
+	};
+	randomSeed=12348981;
+	class Intel
+	{
+		startWeather=0.30000001;
+		forecastWeather=0.30000001;
+		year=2012;
+		month=6;
+		day=24;
+	};
+};

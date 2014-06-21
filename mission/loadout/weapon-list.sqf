@@ -1,0 +1,437 @@
+// =============================================================================
+//                           Weapons and ammo                                  
+// Once again, if you need reference for the classnames, check out the ACE Wiki:
+//                    http://tinyurl.com/aceweapons
+// =============================================================================
+    
+// =============================================================================	
+// 								NATO WEAPONS								   |
+// =============================================================================
+// 							  Rifles/SMGs/PDWs
+
+_HK416D14SD = ["ACE_HK416_D14_SD","30Rnd_556x45_StanagSD"];
+_HK416D14 = ["ACE_HK416_D14","30Rnd_556x45_Stanag"];
+_HK416D14CCO = ["ACE_HK416_D14_COMPM3","30Rnd_556x45_Stanag"];
+_HK416D14PVS = ["ACE_HK416_D14_ACOG_PVS14","30Rnd_556x45_Stanag"];
+_HK416D14TWS = ["ACE_HK416_D14_TWS","30Rnd_556x45_Stanag"];
+_HK416D14CCOGL = ["ACE_HK416_D14_COMPM3_M320","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_HK416D10 = ["ACE_HK416_D10","30Rnd_556x45_Stanag"];
+_HK416D10CCO = ["ACE_HK416_D10_AIM","30Rnd_556x45_Stanag"];
+_HK416D10EOT = ["ACE_HK416_D10_Holo","30Rnd_556x45_Stanag"];
+_HK416D10SD = ["ACE_HK416_D10_SD","30Rnd_556x45_StanagSD"];
+_HK416D10CCOSD = ["ACE_HK416_D10_COMPM3_SD","30Rnd_556x45_StanagSD"];
+_HK416D10GL = ["ACE_HK416_D10_M320","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_HK417CCO = ["ACE_HK417_micro","ACE_20Rnd_762x51_B_HK417"];
+_HK417SHOTDOT = ["ACE_HK417_Shortdot","ACE_20Rnd_762x51_B_HK417"];
+_HK417PVS = ["ACE_HK417_Eotech_4x","ACE_20Rnd_762x51_B_HK417"];
+_M16A2 = ["M16A2","30Rnd_556x45_Stanag"];
+_M16A2SCOPE = ["ACE_m16a2_scope","30Rnd_556x45_Stanag"];
+_M16A4 = ["ACE_M16A4_Iron","30Rnd_556x45_Stanag"];
+_M16A2GL = ["M16A2GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M16A4RCOGL = ["ACE_M16A4_ACG_GL_UP","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M16A4RCO = ["m16a4_acg","30Rnd_556x45_Stanag"];
+_M16A4GL = ["M16A4_GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M16A4GLCCO = ["ACE_M16A4_CCO_GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M16A4GLEOT = ["ACE_M16A4_EOT_GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M16A4EOT = ["ACE_M16A4_EOT","30Rnd_556x45_Stanag"];
+_M14CCO = ["M14_EP1","20Rnd_762x51_DMR","ACE_20Rnd_762x51_T_DMR"];
+_M14RCO = ["ACE_M14_ACOG","20Rnd_762x51_DMR","ACE_20Rnd_762x51_T_DMR"];
+_M110 = ["M110_NVG_EP1","20Rnd_762x51_B_SCAR"];
+_M24 = ["M24","5Rnd_762x51_M24"];
+_MP5A5 = ["MP5A5","30Rnd_9x19_MP5"];
+_MP5A5SD = ["MP5SD","ACE_30Rnd_9x19_S_MP5"];
+_MP5A4 = ["ACE_MP5A4","30Rnd_9x19_MP5"];
+_EVO3 = ["Evo_ACR","20Rnd_9x19_EVO"];
+_EVO3CCO = ["Evo_mrad_ACR","20Rnd_9x19_EVO"];
+_FAL = ["ACE_FAL_Para","20Rnd_762x51_FNFAL"];
+_FALNVG = ["FN_FAL_ANPVS4","20Rnd_762x51_FNFAL"];
+_G3A3 = ["ACE_G3A3","ACE_20Rnd_762x51_B_G3"];
+_G3A3CCO = ["ACE_G3A3_RSAS","ACE_20Rnd_762x51_B_G3"];
+_G3A3SG1 = ["ACE_G3SG1","ACE_20Rnd_762x51_B_G3"];
+_M4A1 = ["M4A1","30Rnd_556x45_Stanag"];
+_M4A1C = ["ACE_M4A1_C","30Rnd_556x45_Stanag"];
+_M4A1GL = ["ACE_M4A1_GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4A1PSV = ["ACE_M4A1_ACOG_PVS14","30Rnd_556x45_Stanag"];
+_M4A1CCOGL = ["ACE_M4_AIM_GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4A1SOCGL = ["ACE_SOC_M4A1_GL","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4A1SOC13GL = ["ACE_SOC_M4A1_GL_13","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4A1SOCEOTGL = ["ACE_SOC_M4A1_GL_EOTECH","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4A1SOCCCOGL = ["ACE_SOC_M4A1_GL_AIMPOINT","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4AISOCTWS = ["ACE_SOC_M4A1_TWS","30Rnd_556x45_Stanag"];
+_M4A3CCO = ["M4A3_CCO_EP1","30Rnd_556x45_Stanag"];
+_M4A1GLSD = ["ACE_M4A1_GL_SD","30Rnd_556x45_StanagSD","ACE_1Rnd_HE_M203"];
+_M4A1CCOGLSD = ["ACE_M4A1_AIM_GL_SD","30Rnd_556x45_StanagSD","ACE_1Rnd_HE_M203"];
+_M4A1STDOTSD = ["ACE_SOC_M4A1_SHORTDOT_SD_F","30Rnd_556x45_StanagSD","ACE_1Rnd_HE_M203"];
+_M4A1CCO = ["M4A1_Aim","30Rnd_556x45_Stanag"];
+_M4A1CCOSD = ["M4A1_AIM_SD_camo","30Rnd_556x45_StanagSD"];
+_M4A1CCOCAMO = ["M4A1_Aim_camo","30Rnd_556x45_Stanag"];
+_M4A1SOC = ["ACE_SOC_M4A1_Aim","30Rnd_556x45_Stanag"];
+_M4A1HWSGLCAMO = ["M4A1_HWS_GL_SD_Camo","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_M4A1GLSD = ["ACE_M4A1_GL_SD","30Rnd_556x45_StanagSD","ACE_1Rnd_HE_M203"];
+_M4A1CCOGLSD = ["ACE_M4A1_AIM_GL_SD","30Rnd_556x45_StanagSD","ACE_1Rnd_HE_M203"];
+_M4A1RCOSD = ["ACE_M4A1_ACOG_SD","30Rnd_556x45_StanagSD"];
+_M4A1SHORTDOTSD = ["ACE_SOC_M4A1_SHORTDOT_SD","30Rnd_556x45_StanagSD"];
+_M4A1CCOSD = ["ACE_M4A1_Aim_SD","30Rnd_556x45_StanagSD"];
+_M4A1EOTSD = ["ACE_M4A1_EOT_SD","30Rnd_556x45_StanagSD"];
+_M4A1SOCSD = ["ACE_SOC_M4A1_SD_9","30Rnd_556x45_StanagSD"];
+_M4A1SOCEOTSD = ["ACE_SOC_M4A1_EOT_SD_F","30Rnd_556x45_StanagSD"];
+_M4A1SOCCCDSD = ["ACE_SOC_M4A1_AIM_SD","30Rnd_556x45_StanagSD"];
+_M4A1EOT = ["ACE_M4A1_Eotech","30Rnd_556x45_Stanag"];
+_M4AISOCEOT = ["ACE_SOC_M4A1_Eotech","30Rnd_556x45_Stanag"];
+_M4SPR = ["M4SPR","30Rnd_556x45_Stanag"];
+_M4SPRSD = ["ACE_M4SPR_SD","30Rnd_556x45_Stanag"];
+_MK12 = ["ACE_Mk12mod1","30Rnd_556x45_StanagSD"];
+_MK12SD = ["ACE_Mk12mod1_SD","30Rnd_556x45_StanagSD"];
+_SCAR = ["SCAR_L_CQC","30Rnd_556x45_Stanag"];
+_SCARHOLO = ["SCAR_L_CQC_Holo","30Rnd_556x45_Stanag"];
+_SCAREOT = ["ACE_SCAR_L_CQC_Eotech","30Rnd_556x45_Stanag"];
+_SCARHOLOGL = ["SCAR_L_CQC_EGLM_Holo","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_SCAREOTGL = ["ACE_SCAR_L_CQC_Eotech_EGLM","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_SCARCCOSD = ["SCAR_L_CQC_CCO_SD","30Rnd_556x45_StanagSD"];
+_SCARSTD = ["SCAR_L_STD_Mk4CQT","30Rnd_556x45_StanagSD"];
+_SCARRCOGL = ["SCAR_L_STD_EGLM_RCO","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_SCARTWSGL = ["SCAR_L_STD_EGLM_TWS","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_SCARSPECTER = ["ACE_SCAR_L_SPECTER","30Rnd_556x45_Stanag"];
+_SCARRCO = ["ACE_SCAR_L_ACOG","30Rnd_556x45_Stanag"];
+_SCARSNIPER = ["ACE_SCAR_L_SNIPER","30Rnd_556x45_Stanag"];
+_MK17CCO = ["SCAR_H_CQC_CCO","20Rnd_762x51_B_SCAR"];
+_MK17CCOSD = ["SCAR_H_CQC_CCO_SD","ACE_20Rnd_762x51_S_SCAR"];
+_MK17RCOGL = ["SCAR_H_STD_EGLM_Spect","20Rnd_762x51_B_SCAR","ACE_1Rnd_HE_M203"];
+_MK17SNIPER = ["SCAR_H_LNG_Sniper","20Rnd_762x51_B_SCAR"];
+_MK17SNIPERSD = ["SCAR_H_LNG_Sniper_SD","20Rnd_762x51_B_SCAR"];
+_MK17TWSSD = ["SCAR_H_STD_TWS_SD","ACE_20Rnd_762x51_S_SCAR"];
+_M40A3 = ["M40A3","5Rnd_762x51_M24"];
+_CZ750 = ["CZ_750_S1_ACR","5Rnd_762x51_M24"];
+_CZ550 = ["huntingrifle","5x_22_LR_17_HMR"];
+_M24DES = ["M24_des_EP1","5Rnd_762x51_M24"];
+_G36C = ["G36C","30Rnd_556x45_G36"];
+_G36CCAMO = ["G36C_camo","30Rnd_556x45_G36"];
+_G36CEOTSD = ["G36_C_SD_eotech","30Rnd_556x45_G36SD"];
+_G36CEOTSDCAMO = ["G36_C_SD_camo","30Rnd_556x45_G36SD"];
+_G36A = ["G36a","30Rnd_556x45_G36"];
+_G36KRCO = ["G36K","30Rnd_556x45_G36"];
+_G36KRCOCAMO = ["G36K_camo","30Rnd_556x45_G36"];
+_G36K = ["ACE_G36K_iron","30Rnd_556x45_G36"];
+_G36KCAMO = ["ACE_G36K_iron_D","30Rnd_556x45_G36"];
+_G36KEOT = ["ACE_G36K_EOTech","30Rnd_556x45_G36"];
+_G36KEOTCAMO = ["ACE_G36K_EOTech_D","30Rnd_556x45_G36"];
+_G36A2 = ["ACE_G36A2","30Rnd_556x45_G36"];
+_G36A2CAMO = ["ACE_G36A2_D","30Rnd_556x45_G36"];
+_G36A1GL = ["ACE_G36A1_AG36A1","30Rnd_556x45_G36","ACE_1Rnd_HE_M203"];
+_G36A1GLCAMO = ["ACE_G36A1_AG36A1_D","30Rnd_556x45_G36","ACE_1Rnd_HE_M203"];
+_G36A2GL = ["ACE_G36A2_AG36A2","30Rnd_556x45_G36","ACE_1Rnd_HE_M203"];
+_DMR = ["DMR","20Rnd_762x51_DMR"];
+_M1014 = ["M1014","8Rnd_B_Beneli_74Slug","ACE_8Rnd_12Ga_Buck00"];
+_M1014EOT = ["ACE_M1014_Eotech","8Rnd_B_Beneli_74Slug","ACE_8Rnd_12Ga_Buck00"];
+_M107 = ["m107","ACE_10Rnd_127x99_Raufoss_m107"];
+_M107TWS = ["m107_TWS_EP1","ACE_10Rnd_127x99_Raufoss_m107"];
+_M109 = ["ACE_M109","ACE_5Rnd_25x59_HEDP_Barrett"];
+_TAC50 = ["ACE_TAC50","ACE_5Rnd_127x99_B_TAC50"];
+_TAC50SD = ["ACE_TAC50_SD","ACE_5Rnd_127x99_S_TAC50"];
+_AS50 = ["ACE_AS50","5Rnd_127x99_as50"];
+_AS50BAF = ["BAF_AS50_scoped","5Rnd_127x99_as50"];
+_AS50PMC = ["PMC_AS50_scoped","5Rnd_127x99_as50"];
+_LRR = ["BAF_LRR_scoped","5Rnd_86x70_L115A1"];
+_LRRCAMO = ["BAF_LRR_scoped_W","5Rnd_86x70_L115A1"];
+_UMP45 = ["ACE_UMP45","ACE_25Rnd_1143x23_B_UMP45"];
+_UMP45SD = ["ACE_UMP45_SD","ACE_25Rnd_1143x23_S_UMP45"];
+_UMP45CCO = ["ACE_UMP45_AIM","ACE_25Rnd_1143x23_B_UMP45"];
+_UMP45AIMSD = ["ACE_UMP45_AIM_SD","ACE_25Rnd_1143x23_S_UMP45"];
+_M3A1 = ["ACE_M3A1","ACE_30Rnd_1143x23_B_M3"];
+_MP7 = ["ACE_MP7","ACE_40Rnd_B_46x30_MP7"];
+_MP7CCO = ["ACE_MP7_RSAS","ACE_40Rnd_B_46x30_MP7"];
+_KAC = ["ACE_KAC_PDW","ACE_30Rnd_6x35_B_PDW"];
+_M8 = ["m8_carbine","30Rnd_556x45_G36"];
+_M8CCO = ["m8_carbine_pmc","30Rnd_556x45_G36"];
+_M8HOLOSD = ["m8_holo_sd","30Rnd_556x45_G36SD"];
+_M8TWS = ["m8_tws","30Rnd_556x45_G36"];
+_M8TWSSD = ["m8_tws_sd","30Rnd_556x45_G36SD"];
+_M8GL = ["m8_carbineGL","30Rnd_556x45_G36","ACE_1Rnd_HE_M203"];
+_M8C = ["m8_compact","30Rnd_556x45_G36"];
+_L85A2HOLO = ["BAF_L85A2_RIS_Holo","30Rnd_556x45_Stanag"];
+_L85A2HOLOGL = ["BAF_L85A2_UGL_Holo","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_L85A2SUSAT = ["BAF_L85A2_RIS_SUSAT","30Rnd_556x45_Stanag"];
+_L85A2SUSATGL = ["BAF_L85A2_UGL_SUSAT","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_L85A2RCO = ["BAF_L85A2_RIS_ACOG","30Rnd_556x45_Stanag"];
+_L85A2RCOGL = ["BAF_L85A2_UGL_ACOG","30Rnd_556x45_Stanag","ACE_1Rnd_HE_M203"];
+_L85A2TWS = ["BAF_L85A2_RIS_CWS","30Rnd_556x45_Stanag"];
+_L86A2RCO = ["BAF_L86A2_ACOG","30Rnd_556x45_Stanag"];
+_SA58P = ["Sa58P_EP1","30Rnd_762x39_SA58"];
+_SA58V = ["Sa58V_EP1","30Rnd_762x39_SA58"];
+_SA58CCO = ["Sa58V_CCO_EP1","30Rnd_762x39_SA58"];
+_SA58RCO = ["Sa58V_RCO_EP1","30Rnd_762x39_SA58"];
+_M110TWS = ["M110_TWS_EP1","20Rnd_762x51_B_SCAR"];
+_M110NVG = ["M110_NVG_EP1","20Rnd_762x51_B_SCAR"];
+_M110 = ["ACE_M110","20Rnd_762x51_B_SCAR"];
+_M110SD = ["ACE_M110_SD","ACE_20Rnd_762x51_S_M110"];
+_AA12 = ["AA12_PMC","20Rnd_B_AA12_74Slug","20Rnd_B_AA12_HE"];
+_CZ805 = ["CZ805_A1_ACR","30Rnd_556x45_G36"];
+_CZ805GL = ["CZ805_A1_ACR","30Rnd_556x45_G36","ACE_1Rnd_HE_M203"];
+_CZ805A2 = ["CZ805_A2_ACR","30Rnd_556x45_G36"];
+_CZ805A2SD = ["CZ805_A2_SD_ACR","30Rnd_556x45_G36"];
+_SPAS12 = ["ACE_SPAS12","8Rnd_B_Beneli_74Slug","ACE_8Rnd_12Ga_Buck00"];
+_UKFL85A2 = ["ukf_L85A2","30Rnd_556x45_Stanag"];
+_UKFL85A2BFA = ["ukf_L85A2_BFA","ukf_30rnd_556x45_blank_stanag"];
+_UKFL85A2SUSAT = ["ukf_L85A2_susat","30Rnd_556x45_Stanag"];
+_UKFL85A2RIS = ["ukf_L85A2_RIS","30Rnd_556x45_Stanag"];
+_UKFL85A2CWS = ["ukf_L85A2_cws","30Rnd_556x45_Stanag"];
+_UKFL85A2SD = ["ukf_L85A2_sd_CQB","30Rnd_556x45_Stanag"];
+_UKFL85A2RCO = ["ukf_L85A2_acog_CQB","30Rnd_556x45_Stanag"];
+_UKFL85A2MAXIKITE = ["ukf_L86A2LSW_MaxiKite","30Rnd_556x45_Stanag"];
+_UKFL85A2GL = ["ukf_L85A2AG36","30Rnd_556x45_Stanag","1Rnd_HE_M203"];
+_UKFL85A2SUSATGL = ["ukf_L85A2AG36_susat","30Rnd_556x45_Stanag","1Rnd_HE_M203"];
+_UKFL85A2RCOGL = ["ukf_L85A2AG36_acog","30Rnd_556x45_Stanag","1Rnd_HE_M203"];
+_UKFL22A2SUSAT = ["ukf_L85A2K_susat","30Rnd_556x45_Stanag"];
+_UKFL7A2 = ["ukf_gpmg","100Rnd_762x51_m240"];
+_UKFL110A2 = ["ukf_lmg","200Rnd_556x45_M249"];
+_UKFL110A2SUSAT = ["ukf_lmg_SUSAT","200Rnd_556x45_M249"];
+_UKFL110A2RCO = ["ukf_lmg_ACOG","200Rnd_556x45_M249"];
+
+//								Machineguns
+
+_M27IAR = ["ACE_M27_IAR","100Rnd_556x45_BetaCMag"];
+_M27IARCCO = ["ACE_M27_IAR_CCO","100Rnd_556x45_BetaCMag"];
+_M27IARRCO = ["ACE_M27_IAR_ACOG","100Rnd_556x45_BetaCMag"];
+_M249 = ["M249","200Rnd_556x45_M249"];
+_M249PARA = ["ACE_M249Para","200Rnd_556x45_M249"];
+_M249CCO = ["ACE_M249_AIM","200Rnd_556x45_M249"];
+_M240 = ["M240","100Rnd_762x51_M240"];
+_M240B = ["ACE_M240B","100Rnd_762x51_M240"];
+_M240RCO = ["m240_scoped_EP1","100Rnd_762x51_M240"];
+_M240M145 = ["ACE_M240L_M145","100Rnd_762x51_M240"];
+_MK48 = ["Mk_48","100Rnd_762x51_M240"];
+_MK48DES = ["Mk_48_DES_EP1","100Rnd_762x51_M240"];
+_M60A4 = ["M60A4_EP1","100Rnd_762x51_M240"];
+_M60 = ["ACE_M60","100Rnd_762x51_M240"];
+_L7A2 = ["BAF_L7A2_GPMG","100Rnd_762x51_M240"];
+_MG36CAMO = ["ACE_MG36_D","100Rnd_556x45_BetaCMag"];
+_MG36 = ["MG36","100Rnd_556x45_BetaCMag"];
+_MG36CAMO = ["MG36_camo","100Rnd_556x45_BetaCMag"];
+_M8SAW = ["m8_SAW","100Rnd_556x45_BetaCMag"];
+_L110A1 = ["BAF_L110A1_Aim","100Rnd_556x45_M249"];
+
+//								  Pistols
+
+_M9 = ["M9","15Rnd_9x19_M9"];
+_M9SD = ["M9SD","15Rnd_9x19_M9SD"];
+_M1911 = ["Colt1911","7Rnd_45ACP_1911"];
+_USP = ["ACE_USP","ACE_12Rnd_45ACP_USP"];
+_USPSD = ["ACE_12Rnd_45ACP_USP","ACE_12Rnd_45ACP_USPSD"];
+_P8 = ["ACE_P8","ACE_15Rnd_9x19_P8"];
+_SIG = ["ACE_P226","ACE_15Rnd_9x19_P226"];
+_L9A1 = ["ACE_L9A1","ACE_13Rnd_9x19_L9A1"];
+_UZI = ["UZI_EP1","30Rnd_9x19_UZI"];
+_UZISD = ["UZI_SD_EP1","30Rnd_9x19_UZI"];
+_REVOLVER = ["revolver_EP1","6Rnd_45ACP"];
+_REVOLVERGOLD = ["revolver_gold_EP1","6Rnd_45ACP"];
+_GLOCK17 = ["glock17_EP1","17Rnd_9x19_glock17"];
+_GLOCK17ACE = ["ACE_Glock17","17Rnd_9x19_glock17"];
+_GLOCK18 = ["ACE_Glock18","ACE_33Rnd_9x19_G18"];
+
+//								 Launchers
+
+_AT4 = "ACE_M136_CSRS";
+_SMAW = ["SMAW","SMAW_HEAA","ACE_SMAW_Spotting","SMAW_HEDP"];
+_M72 = "ACE_M72A2";
+_JAVELIN = "FGM-148 Javelin";
+_STINGER = "Stinger";
+_NLAW = "BAF_NLAW_Launcher";
+_M47 = "M47Launcher_EP1";
+_GUSTAV = ["ACE_CarlGustav_M3","MAAWS_HEAT","MAAWS_HEDP"];
+_M32 = ["ACE_M32","6Rnd_HE_M203"];
+_M79 = ["ACE_M79","ACE_1Rnd_HE_M203"];
+_MK13 = ["Mk13_EP1","ACE_1Rnd_HE_M203"];
+	
+// =============================================================================
+//   PACT WEAPONS							|
+// =============================================================================
+//   Rifles/SMGs/PDWs
+
+_AKS74PSO = ["AKS_74_pso","30Rnd_545x39_AK"];
+_AK74K = ["AKS_74_kobra","30Rnd_545x39_AK"];
+_AK74GL = ["AK_74_GL","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74GLKOBRA = ["AK_74_GL_kobra","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK103 = ["ACE_AK103","30Rnd_762x39_AK47"];
+_AK103KOBRA = ["ACE_AK103_Kobra","30Rnd_762x39_AK47"];
+_AK103AIM = ["ACE_AK103_1P29","30Rnd_762x39_AK47"];
+_AK103GL = ["ACE_AK103_GL","30Rnd_762x39_AK47","1Rnd_HE_GP25"];
+_AK103KOBRAGL = ["ACE_AK103_GL_Kobra","30Rnd_762x39_AK47","1Rnd_HE_GP25"];
+_AK103PSO = ["ACE_AK103_PSO","30Rnd_762x39_AK47"];
+_AK103PSOGL = ["ACE_AK103_GL_PSO","30Rnd_762x39_AK47"];
+_AK104 = ["ACE_AK104","30Rnd_762x39_AK47"];
+_AK104KOBRA = ["ACE_AK104_Kobra","30Rnd_762x39_AK47"];
+_AK104AIM = ["ACE_AK104_1P29","30Rnd_762x39_AK47"];
+_AK104PSO = ["ACE_AK104_PSO","30Rnd_762x39_AK47"];
+_AK105 = ["ACE_AK105","30Rnd_545x39_AK"];
+_AK105KOBRA = ["ACE_AK105_Kobra","30Rnd_545x39_AK"];
+_AK105AIM = ["ACE_AK105_1P29","30Rnd_545x39_AK"];
+_AK105PSO = ["ACE_AK105_PSO","30Rnd_545x39_AK"];
+_GROZA = ["ACE_oc14","ACE_20Rnd_9x39_B_OC14"];
+_GROZAGL = ["ACE_oc14gl","ACE_20Rnd_9x39_B_OC14","1Rnd_HE_GP25"];
+_GROZASD = ["ACE_oc14sd","ACE_20Rnd_9x39_S_OC14"];
+_GROZAPSOSD = ["ACE_oc14sdsp","ACE_20Rnd_9x39_S_OC14"];
+_GROZAPSO = ["ACE_oc14sp","ACE_20Rnd_9x39_B_OC14"];
+_GROZAPSOGL = ["ACE_oc14glsp","ACE_20Rnd_9x39_B_OC14","1Rnd_HE_GP25"];
+_GROZA762 = ["ACE_gr1","30Rnd_762x39_AK47"];
+_GROZA762PSO = ["ACE_gr1sp","30Rnd_762x39_AK47"];
+_GROZA762SD = ["ACE_gr1sd","ACE_30Rnd_762x39_AP_S_AK47"];
+_GROZA762PSOSD = ["ACE_gr1sdsp","ACE_30Rnd_762x39_AP_S_AK47"];
+_AK47M = ["AK_47_M","30Rnd_762x39_AK47"];
+_AK47S = ["AK_47_S","30Rnd_762x39_AK47"];
+_AKSGOLD = ["AKS_GOLD","30Rnd_762x39_AK47"];
+_AKMS = ["ACE_AKMS","30Rnd_762x39_AK47"];
+_AKMSSD = ["ACE_AKMS_SD","ACE_30Rnd_762x39_SD_AK47"];
+_AKM = ["ACE_AKM","30Rnd_762x39_AK47"];
+_AKMGL = ["ACE_AKM_GL","30Rnd_762x39_AK47","1Rnd_HE_GP25"];
+_AK74M = ["ACE_AK74M","30Rnd_545x39_AK"];
+_AK74MGL = ["ACE_AK74M_GL","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74MKOBRA = ["ACE_AK74M_Kobra","30Rnd_545x39_AK"];
+_AK74MKOBRAGL = ["ACE_AK74M_GL_Kobra","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74MPSO = ["ACE_AK74M_PSO","30Rnd_545x39_AK"];
+_AK74MPSOGL = ["ACE_AK74M_GL_PSO","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74MAIM = ["ACE_AK74M_1P29","30Rnd_545x39_AK"];
+_AK74MAIMGL = ["ACE_AK74M_GL_1P29","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74MTWS = ["ACE_AK74M_TWS","30Rnd_545x39_AK"];
+_AK74MTWSGL = ["ACE_AK74M_GL_TWS","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74MNSPU = ["ACE_AK74M_NSPU","30Rnd_545x39_AK"];
+_AK74MNSPUGL = ["ACE_AK74M_GL_NSPU","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK74MSD = ["ACE_AK74M_SD","30Rnd_545x39_AKSD"];
+_AK74MKOBRASD = ["ACE_AK74M_SD_Kobra","30Rnd_545x39_AKSD"];
+_AK74MPSOSD = ["ACE_AK74M_SD_PSO","30Rnd_545x39_AKSD"];
+_AK74M1P78SD = ["ACE_AK74M_SD_1P78","30Rnd_545x39_AKSD"];
+_AK74MTWSSD = ["ACE_AK74M_SD_TWS","30Rnd_545x39_AKSD"];
+_AK74MNSPUSD = ["ACE_AK74M_SD_NSPU","30Rnd_545x39_AKSD"];
+_AKS74P = ["ACE_AKS74P","30Rnd_545x39_AK"];
+_AKS74P = ["ACE_AKS74P_GL","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AKS74PAIMGL = ["ACE_AKS74P_GL_1P29","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AKS74PPSO = ["ACE_AKS74P_GL_PSO","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AKS74 = ["AKS_74","30Rnd_545x39_AK"];
+_AKS74GL = ["ACE_AKS74_GP25","30Rnd_545x39_AK","1Rnd_HE_GP25"];;
+_AKS74KOBRA = ["AKS_74_kobra","30Rnd_545x39_AK"];
+_AKS74PKOBRA = ["ACE_AKS74P_Kobra","30Rnd_545x39_AK"];
+_AKS74PAIM = ["ACE_AKS74P_1P29","30Rnd_545x39_AK"];
+_AKS74PPSO = ["ACE_AKS74P_PSO","30Rnd_545x39_AK"];
+_AKS74NSPU = ["AKS_74_NSPU","30Rnd_545x39_AK"];
+_AK107KOBRA = ["AK_107_kobra","30Rnd_545x39_AK"];
+_AK107KOBRAGL = ["AK_107_GL_kobra","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AK107PSO = ["AK_107_pso","30Rnd_545x39_AK"];
+_AK107PSOGL = ["AK_107_GL_pso","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AEK971 = ["ACE_AEK_971","30Rnd_545x39_AK"];
+_AEK971GL = ["ACE_AEK_971_gp","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AEK971CCOGL = ["ACE_AEK_971_gp_1p63","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AEK971AIM = ["ACE_AEK_971_1p63","30Rnd_545x39_AK","1Rnd_HE_GP25"];
+_AEK971SHAHIN = ["ACE_AEK_971_shahin","30Rnd_545x39_AK"];
+_AEK973 = ["ACE_AEK_973s","30Rnd_762x39_AK47"];
+_AEK973GL = ["ACE_AEK_973s_gp","30Rnd_762x39_AK47","1Rnd_HE_GP25"];
+_AEK973AIM = ["ACE_AEK_973s_1p63","30Rnd_762x39_AK47"];
+_AEK973AIMGL = ["ACE_AEK_973s_gp_1p63","30Rnd_762x39_AK47","1Rnd_HE_GP25"];
+_AEK973SHAHIN = ["ACE_AEK_973s_shahin","30Rnd_762x39_AK47"];
+_BIZON = ["bizon","64Rnd_9x19_Bizon"];
+_BIZONSD = ["bizon_silenced","64Rnd_9x19_SD_Bizon"];
+_SKS = ["ACE_SKS","ACE_10Rnd_762x39_B_SKS"];
+_KSVK = ["ksvk","5Rnd_127x108_KSVK"];
+_SAIGA = ["Saiga12K","8Rnd_B_Saiga12_74Slug","ACE_8Rnd_12Ga_Buck00_Saiga12"];
+_VSS = ["VSS_vintorez","10Rnd_9x39_SP5_VSS"];
+_VAL = ["ACE_Val","20Rnd_9x39_SP5_VSS"];
+_VALKOBRA = ["ACE_Val_Kobra","20Rnd_9x39_SP5_VSS"];
+_VALPSO = ["ACE_Val_PSO","20Rnd_9x39_SP5_VSS"];
+_SVD = ["SVD","10Rnd_762x54_SVD","ACE_10Rnd_762x54_T_SVD"];
+_SVDCAMO = ["SVD_CAMO","10Rnd_762x54_SVD"];
+_SVDCAMOD = ["SVD_des_EP1","10Rnd_762x54_SVD"];
+_SVDNSPU = ["SVD_NSPU_EP1","10Rnd_762x54_SVD"];
+_AK74U = ["AKS_74_U","30Rnd_545x39_AK"];
+_AK74UKOBRASL = ["AKS_74_UN_kobra","30Rnd_545x39_AKSD"];
+
+//								 Machineguns
+
+_RPK74M = ["ACE_RPK74M","75Rnd_545x39_RPK"];
+_RPK = ["ACE_RPK","75Rnd_545x39_RPK"];
+_RPKM = ["ACE_RPK74M","75Rnd_545x39_RPK"];
+_RPKMAIM = ["ACE_RPK74M_1P29","75Rnd_545x39_RPK"];
+_PKM = ["PK","100Rnd_762x54_PK"];
+_PKP = ["Pecheneg","100Rnd_762x54_PK"];
+
+//								  Pistols
+
+_MAKAROV = ["Makarov","8Rnd_9x18_Makarov"];
+_MAKAROVSD = ["MakarovSD","8Rnd_9x18_MakarovSD"];
+_APSB = ["ACE_APSB","ACE_20Rnd_9x18_APSB"];
+_APS = ["ACE_APS","ACE_20Rnd_9x18_APS"];
+_TT = ["ACE_TT","ACE_8Rnd_762x25_B_Tokarev"];
+_SA61 = ["Sa61_EP1","20Rnd_B_765x17_Ball"];
+_SCORPION = ["ACE_Scorpion","20Rnd_B_765x17_Ball"];
+
+//								 Launchers
+
+_RPG7 = ["RPG7V","ACE_PG7V_PGO7","ACE_PG7VL_PGO7"];
+_RPG7PGO = ["ACE_RPG7V_PGO7","ACE_PG7V_PGO7","ACE_PG7VL_PGO7"];
+_RPG18 = "RPG18";
+_RPG29 = ["ACE_RPG29","ACE_RPG29_PG29","ACE_RPG29_TBG29"];
+_RPG22 = "ACE_RPG22";
+_RPG27 = "ACE_RPG27";
+_RPOM = "ACE_RPOM";
+_STRELA = "Strela";
+_IGLA = "Igla";
+_METIS = ["MetisLauncher","AT13","ACE_AT13TB"];
+ 
+// =============================================================================
+// 								BACKPACKS								       |
+// =============================================================================
+
+//							  Woodland/Green/Flore Camo
+
+_MOLLEGREEN = "ACE_Rucksack_MOLLE_Green";
+_MOLLEWOOD = "ACE_Rucksack_MOLLE_Wood";
+_MOLLEWMARPAT = "ACE_Rucksack_MOLLE_WMARPAT";
+_MOLLEWMARPATMEDIC = "ACE_Rucksack_MOLLE_WMARPAT_Medic";
+_CHARLIEPACK = "ACE_CharliePack";
+_CHARLIEPACKWMARPAT = "ACE_CharliePack_WMARPAT";
+_CHARLIEPACKFLORA = "ACE_CharliePack_FLORA";
+_COYOTEWOOD = "ACE_Coyote_Pack_Wood";
+_COYOTEFLORA = "ACE_Coyote_Pack_Flora";
+_ACRBACKPACK = "ACE_BackPack_ACR";
+_ACRBACKPACKFLORA = "ACE_BackPack_ACR_FL";
+_ACRBACKPACKSMALL = "ACE_BackPack_ACR_Small";
+_ALICE = "ACE_ALICE_Backpack";
+_ASSAULTPACK = "ACE_Backpack_CivAssault";
+_BACKPACKRPG = "ACE_Backpack_RPG";
+_BACKPACKUSFLORA = "ACE_Backpack_FL";
+_BACKPACKUSOLIVE = "ACE_Backpack_Olive";
+_BACKPACKUSWOOD = "ACE_Backpack_Wood";
+_RD90 = "ACE_Rucksack_RD90";
+_RD99 = "ACE_Rucksack_RD99";
+
+//							   Desert/Brown/ACU Camo
+
+_MOLLEBROWN = "ACE_Rucksack_MOLLE_Brown";
+_MOLLEBROWNMEDIC = "ACE_Rucksack_MOLLE_Brown_Medic";
+_MOLLEACU = "ACE_Rucksack_MOLLE_ACU";
+_MOLLEACUMEDIC = "ACE_Rucksack_MOLLE_ACU_Medic";
+_MOLLEDMARPAT = "ACE_Rucksack_MOLLE_DMARPAT";
+_MOLLEDMARPATMEDIC = "ACE_Rucksack_MOLLE_DMARPAT_Medic";
+_CHARLIEPACKACU = "ACE_CharliePack_ACU";
+_CHARLIEPACKACUMEDIC = "ACE_CharliePack_ACU_Medic";
+_COYOTEPACK = "ACE_Coyote_Pack";
+_ACRBACKPACKTT = "ACE_BackPack_ACR_TT";
+_ACRBACKPACKDPM = "ACE_BackPack_ACR_DPM";
+_ACRBACKPACKDDPM = "ACE_BackPack_ACR_DDPM";
+_ACRBACKPACKMTP = "ACE_BackPack_ACR_MTP";
+_BACKPACKUS = "ACE_Backpack_US";
+_BACKPACKUSTT = "ACE_Backpack_TT";
+_BACKPACKUSACU = "ACE_Backpack_ACU";
+_BAFPACK = "ACE_AssaultPack_BAF";
+
+//								 Others (Black/Multicam)
+
+_APOBS = "ACE_APOBS_A";
+_VTAC = "ACE_VTAC_RUSH72";
+_VTACACU = "ACE_VTAC_RUSH72_ACU";
+_VTACOD = "ACE_VTAC_RUSH72_OD";
+_VTACTTMEDIC = "ACE_VTAC_RUSH72_TT_MEDIC";
+_VTACFTMEDIC = "ACE_VTAC_RUSH72_FT_MEDIC";
+_CHARLIEPACKMULTICAM = "ACE_CharliePack_Multicam";
+_COYOTEPACKBLACK = "ACE_Coyote_Pack_Black";
+_COYOTEMULTICAM = "ACE_Coyote_Pack_Multicam";
+_BACKPACKUSMULTICAM = "ACE_Backpack_Multicam";
+_TACTICALLADDER = "ACE_TacticalLadder_Pack";
+_STRECHER = "ACE_Stretcher";

@@ -1,0 +1,44 @@
+// ============================================================================================
+// Load the dialog scripts.
+#include "engine\dialogs\loadDialogs.cpp"
+// ============================================================================================
+// F2 - Mission Header
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+class Header
+{
+	gameType = coop;
+	minPlayers = 2;
+	maxPlayers = 50;
+};
+onLoadMission = "BromA: ArmA for the refined autist.";
+loadScreen = "mission\images\loading-screen.jpg";
+onLoadMissionTime = 0;
+// ============================================================================================
+// F2 - Respawn Settings
+// Credits: Please see the F2 online manual (http://www.ferstaberinde.com/f2/en/)
+respawn = "BASE";
+respawndelay = 15;
+disabledAI = 1;
+
+// ============================================================================================
+// Loads mission parameters
+class Params { 
+    #include "mission\parameters.sqf" 
+};
+// ============================================================================================
+class RscTitles {
+// ============================================================================================
+// BoN - Declare the Crew Overlay graphics.
+#include "engine\dialogs\crewoverlay.hpp"
+// ============================================================================================
+};
+// ============================================================================================
+class CfgSounds
+{
+	sounds[] = {};                
+};
+
+class CfgMusic
+{
+	tracks[]={};
+};
