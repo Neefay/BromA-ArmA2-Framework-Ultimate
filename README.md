@@ -1,8 +1,8 @@
-_*After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use*.
+*After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use*.
 
 # What is the BromA Mission Framework?
 
-The BromA Mission Framework (referred to from now on as "BMF") is simply put a collection of scripts - most made in-house, some adapted - designed to function together, bringing essential functions to ArmA missions with minimal effort on part of the mission maker, regardless of past experience or level of scripting expertise.
+The *BromA Mission Framework* (referred to from now on as "BMF") is simply put a collection of scripts - most made in-house, some adapted - designed to function together, bringing essential functions to ArmA missions with minimal effort on part of the mission maker, regardless of past experience or level of scripting expertise.
 While the BMF is designed to include the vast majority of common features, mission makers are invited to customize and disable modules as desired, with many modules included as session-unique Parameters for an increased replayability factor.
 
 **Perks of the BMF include but not limited to:**
