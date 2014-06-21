@@ -24,7 +24,8 @@ Using the BMF is very simple:
 
 
 * Download the lastest version from this git repository.
-* Create a folder named "**yourname**_**gamemode**_**missionname**_**vernumber**.desert_e" to your default missions folder, generally located at ```Documents\ArmA 2 Other Profiles\YourUserName\Missions```
+* Create a folder named "**yourname_gamemode_playercount_missionname_vernumber**.desert_e" to your default missions folder, generally located at ```Documents\ArmA 2 Other Profiles\YourUserName\Missions```
+* Example: ```nife_tvt_30_thefinalstand_v08``` ```royal_co_30_redmile_v12```
 * If you wish to use another map, [refer to this guide](http://ferstaberinde.com/f2/en/index.php?title=Using_F2_with_other_islands).
 * Start customizing your mission.
 
