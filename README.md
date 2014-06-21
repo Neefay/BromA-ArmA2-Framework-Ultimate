@@ -63,4 +63,4 @@ Many scripts by **Krauser** and **Sandiford** from United Operations (http://for
 * The authors listed in the credits, for not suing me.
 * All BromA players, for being such loveable retards - in the end this is all for them.
 * To the future mission makers, who hopefully use this for something good.
-**You, for reading this.**
+** *You, for reading this.**
