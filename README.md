@@ -7,14 +7,19 @@ While the BMF is designed to include the vast majority of common features, missi
 
 **Perks of the BMF include but not limited to:**
 
-* **Designed for concision and practicality**
-* **Easy AI management with DAC integration**
-* **Time Limit**
-* **Limit for civilian casualties**
-* **Customizable ending screens**
-* **Spawn protection**
+* Designed for concision and practicality
+* Preset and easy to alter parameters
+* Easily manageable tasks
+* Intuitive loadout system
+* Fully integrated with ACE revive system
+* Team Roster
+* AI management with DAC integration
+* Time Limit
+* Limit for civilian casualties
+* Customizable ending screens
+* Spawn protection
 
-**... and much more.**
+... and **much** more.
 
 # Usage and application
 
