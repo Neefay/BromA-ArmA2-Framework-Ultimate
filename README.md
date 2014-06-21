@@ -1,4 +1,4 @@
-_**After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use**.
+_*After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use*.
 
 # What is the BromA Mission Framework?
 
