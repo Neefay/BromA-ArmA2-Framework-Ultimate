@@ -1,34 +1,32 @@
-[i]After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use (read: testing).[/i]
+After a lot of very difficult and sanity bending work, it is finally finished: the project has reached a satisfactory state and is now ready for public use.
 
-[h1]What is the BromA Mission Framework?[/h1]
+# What is the BromA Mission Framework?
 
-The BromA Mission Framework (referred to from now on as "BMF") is simply put a collection of scripts - some made in-house, some adapted - designed to function together, bringing essential functions to ArmA missions with minimal effort on part of the mission maker, regardless of past experience or level of scripting expertise.
+The BromA Mission Framework (referred to from now on as "BMF") is simply put a collection of scripts - most made in-house, some adapted - designed to function together, bringing essential functions to ArmA missions with minimal effort on part of the mission maker, regardless of past experience or level of scripting expertise.
 While the BMF is designed to include the vast majority of common features, mission makers are invited to customize and disable modules as desired, with many modules included as session-unique Parameters for an increased replayability factor.
 
-[b]Perks of the BMF include but not limited to:[/b]
+**Perks of the BMF include but not limited to:**
 
-[list]
-[*][b]Easy AI management[/b]
-[*][b]Time Limit[/b]
-[*][b]Limit for civilian casualties[/b]
-[*][b]Customizable ending screens[/b]
-[*][b]Spawn protection[/b]
-[*][b]Capture zones[/b]
-[*]... and much more.
-[/list]
+* **Designed for concision and practicality**
+* **Easy AI management with DAC integration**
+* **Time Limit**
+* **Limit for civilian casualties**
+* **Customizable ending screens**
+* **Spawn protection**
 
-[h1]Usage and application[/h1]
+**... and much more.**
 
-The BMF is designed first and foremost with simplicity and cohesion in mind: in order to make a regular Destroy and Capture mission, the user will only need to customize his own parameters and place the AI zones wherever desired - the underlying work is already finished and tested.
+# Usage and application
+
+The BMF is designed first and foremost with simplicity and cohesion in mind: in order to make a regular Destroy and Capture mission, the user will only need to customize his own parameters and place the AI zones wherever desired and adjust the player units with gear - the underlying work is already finished and tested.
 
 Using the BMF is very simple:
 
-[list]
-[*][url=www.mediafire.com/download/46b1d9ey5f4px6z]Download the [b]Broma Mission Framework[/b][/url].
-[*]Unpack the folder named "broma_framework_final_ver07.desert_e" to your default missions folder, generally located at [code]Documents\ArmA 2 Other Profiles\YourUserName\Missions[/code]
-[*]If you wish to use another map, [url=http://ferstaberinde.com/f2/en/index.php?title=Using_F2_with_other_islands]refer to this guide[/url].
-[*]Start customizing your mission.
-[/list]
+
+* Download the lastest version from this git repository.
+* Unpack the folder named "broma_framework_final_ver07.desert_e" to your default missions folder, generally located at ```Documents\ArmA 2 Other Profiles\YourUserName\Missions```
+* If you wish to use another map, [refer to this guide](http://ferstaberinde.com/f2/en/index.php?title=Using_F2_with_other_islands).
+* Start customizing your mission.
 
 [i]Note from Nife: I have to apologize for the lack of direct documentation: recently I've been running BromA only with the help of a few people and it's been taking a lot of my time. If you have any questions related to the Framework, I'm always available to answer them - but until then that is all help I can afford to offer.[/i]
 
