@@ -24,7 +24,7 @@ Using the BMF is very simple:
 
 
 * Download the lastest version from this git repository.
-* Unpack the folder named "broma_framework_final_ver07.desert_e" to your default missions folder, generally located at ```Documents\ArmA 2 Other Profiles\YourUserName\Missions```
+* Create a folder named "**yourname**_**gamemode**_**missionname**_**vernumber**.desert_e" to your default missions folder, generally located at ```Documents\ArmA 2 Other Profiles\YourUserName\Missions```
 * If you wish to use another map, [refer to this guide](http://ferstaberinde.com/f2/en/index.php?title=Using_F2_with_other_islands).
 * Start customizing your mission.
 
@@ -44,11 +44,11 @@ As stated previously, the BMF is a compilation - a mashup of several different s
 
 ** THESE HAVE BEEN ADDED WITHOUT CONSENT OR AUTHORIZATION: IF YOU ARE THE OWNER OF ONE OR MORE OF THE WORK INCLUDED HERE AND WISH TO HAVE IT REMOVED, PLEASE MESSAGE ME ASAP. **
 
-Casualty Cap, Evade and Escape, AI removal and other assorted scripts modified from the **F2 Framework (www.ferstaberinde.com/f2/en/)** by **Fer**.
-** DAC - Dynamic AI Creator** (http://forums.bistudio.com/showthread.php?99753-Dynamic-AI-Creator-%28DAC%29-V3-0-released) by ** Silola **.
-** Revive system** (http://forums.bistudio.com/showthread.php?110129-Revive-script-for-ACE2-Wounding-system-V1-5) by **columdrum **. 
-** Takistan Force ** (http://forums.bistudio.com/showthread.php?103813-COOP-20-Takistan-Force-%28OA%29) modules by ** BoN **.
-** TaskMaster** (http://forums.bistudio.com/showthread.php?100731-Taskmaster-2) by **Shuko**
+* Casualty Cap, Evade and Escape, AI removal and other assorted scripts modified from the **F2 Framework (www.ferstaberinde.com/f2/en/)** by **Fer**.
+* ** DAC - Dynamic AI Creator** (http://forums.bistudio.com/showthread.php?99753-Dynamic-AI-Creator-%28DAC%29-V3-0-released) by ** Silola **.
+* ** Revive system** (http://forums.bistudio.com/showthread.php?110129-Revive-script-for-ACE2-Wounding-system-V1-5) by **columdrum **. 
+* ** Takistan Force ** (http://forums.bistudio.com/showthread.php?103813-COOP-20-Takistan-Force-%28OA%29) modules by ** BoN **.
+* ** TaskMaster** (http://forums.bistudio.com/showthread.php?100731-Taskmaster-2) by **Shuko**
 Many scripts by **Krauser** and **Sandiford** from United Operations (http://forums.unitedoperations.net/)
 
 **Special thanks to**
