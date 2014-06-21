@@ -28,38 +28,33 @@ Using the BMF is very simple:
 * If you wish to use another map, [refer to this guide](http://ferstaberinde.com/f2/en/index.php?title=Using_F2_with_other_islands).
 * Start customizing your mission.
 
-[i]Note from Nife: I have to apologize for the lack of direct documentation: recently I've been running BromA only with the help of a few people and it's been taking a lot of my time. If you have any questions related to the Framework, I'm always available to answer them - but until then that is all help I can afford to offer.[/i]
+Further and proper documentation is already underway, but for now you can watch the [entire process from a recorded live stream](http://www.twitch.tv/neefay/b/539959948)
 
 Here are some resources you can use if you get stuck:
 
-[list]
-[*][url=http://ferstaberinde.com/f2/en/index.php?title=Main_Page]F2 Framework Wiki[/url]
-[*][url=https://www.mediafire.com/?h4j8g2hjqa9opog]DAC Documentation[/url]
-[*][url=http://forums.bistudio.com/showthread.php?100731-Taskmaster-2]Taskmaster[/url]
-[*][url=http://community.bistudio.com/wiki/Scripting_Commands_by_Functionality]All ArmA 2 scripting commands[/url]
-[/list]
+* [DAC Documentation](https://www.mediafire.com/?h4j8g2hjqa9opog)
+* [Taskmaster](http://forums.bistudio.com/showthread.php?100731-Taskmaster-2)
+* [All ArmA Scripting Commands](http://community.bistudio.com/wiki/Scripting_Commands_by_Functionality)
 
-I really really really really recommend you use the [url=http://www.armaholic.com/page.php?id=14714]SQF Editor[/url] to edit your missions; it has an built-in synthax check and command lookup for all of ArmA's variables and functions, which proves to be invaluable.
+I really really really really recommend you use the [SQF Editor](http://www.armaholic.com/page.php?id=14714) to edit your missions; it has an built-in synthax check and command lookup for all of ArmA's variables and functions, which proves to be invaluable.
 
-[h1]Credits and acknowledgements[/h1]
+# Credits and acknowledgements
 
 As stated previously, the BMF is a compilation - a mashup of several different scripts and modules - modified and adapted to function together without any conflicts. Naturally, it is  imperative to recognize the absolutely amazing work of the authors of these scripts.
 
-[b]THESE HAVE BEEN ADDED WITHOUT CONSENT OR AUTHORIZATION: IF YOU ARE THE OWNER OF ONE OR MORE OF THE WORK INCLUDED HERE AND WISH TO HAVE IT REMOVED, PLEASE MESSAGE ME ASAP.[/b]
+** THESE HAVE BEEN ADDED WITHOUT CONSENT OR AUTHORIZATION: IF YOU ARE THE OWNER OF ONE OR MORE OF THE WORK INCLUDED HERE AND WISH TO HAVE IT REMOVED, PLEASE MESSAGE ME ASAP. **
 
-Built upon the [b]F2 Framework[/b] (www.ferstaberinde.com/f2/en/) by [b]Fer[/b].
-[b]DAC - Dynamic AI Creator[/b] (http://forums.bistudio.com/showthread.php?99753-Dynamic-AI-Creator-%28DAC%29-V3-0-released) by [b]Silola[/b].
-[b]Revive system[/b] (http://forums.bistudio.com/showthread.php?110129-Revive-script-for-ACE2-Wounding-system-V1-5) by [b]columdrum[/b]. 
-[b]Takistan Force[/b] (http://forums.bistudio.com/showthread.php?103813-COOP-20-Takistan-Force-%28OA%29) modules by [b]BoN[/b].
-[b]TaskMaster[/b] (http://forums.bistudio.com/showthread.php?100731-Taskmaster-2) by [b]Shuko[/b]
-Many scripts by [b]Krauser[/b] and [b]Sandiford[/b] from United Operations (http://forums.unitedoperations.net/)
+Casualty Cap, Evade and Escape, AI removal and other assorted scripts modified from the **F2 Framework (www.ferstaberinde.com/f2/en/)** by **Fer**.
+** DAC - Dynamic AI Creator** (http://forums.bistudio.com/showthread.php?99753-Dynamic-AI-Creator-%28DAC%29-V3-0-released) by ** Silola **.
+** Revive system** (http://forums.bistudio.com/showthread.php?110129-Revive-script-for-ACE2-Wounding-system-V1-5) by **columdrum **. 
+** Takistan Force ** (http://forums.bistudio.com/showthread.php?103813-COOP-20-Takistan-Force-%28OA%29) modules by ** BoN **.
+** TaskMaster** (http://forums.bistudio.com/showthread.php?100731-Taskmaster-2) by **Shuko**
+Many scripts by **Krauser** and **Sandiford** from United Operations (http://forums.unitedoperations.net/)
 
-[b]Special thanks to[/b]
+**Special thanks to**
 
-[list]
-[*]The mission makers and scripters, who contributed with a lot of their own time in order to make this happen.
-[*]The authors listed in the credits, for not suing me.
-[*]All BromA players, for being such loveable retards - in the end this is all for them.
-[*]To the future mission makers, who hopefully use this for something good.
-[*][spoiler]You, for reading this.[/spoiler]
-[/list]
+* The mission makers and scripters, who contributed with a lot of their own time in order to make this happen.
+* The authors listed in the credits, for not suing me.
+* All BromA players, for being such loveable retards - in the end this is all for them.
+* To the future mission makers, who hopefully use this for something good.
+**You, for reading this.**
