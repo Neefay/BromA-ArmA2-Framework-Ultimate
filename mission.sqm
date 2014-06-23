@@ -78,7 +78,7 @@ class Mission
 	randomSeed=3234872;
 	class Intel
 	{
-		briefingName=">> Broma Framework ULTIMATE - v1.0 <<";
+		briefingName=">> Broma Framework ULTIMATE - v1.1 <<";
 		briefingDescription="** EDIT THE DESCRIPTION TO FIT YOUR MISSION **";
 		resistanceEast=1;
 		startWeather=0.30000001;

@@ -136,11 +136,19 @@ allowJIP = true;
 // =============================================================================
 
 // =============================================================================
+//                         == BROMA FIELD REPAIR ==                            |
+// =============================================================================    
+enableRepair = true;
+engineersOnly = true;         // Only Engineer units may repair vehicles at all.
+
+// =============================================================================
+
+// =============================================================================
 //                        == SPAWN PROTECTION ==                               |
 
 //        Creates a spawn protection zone around the player(s)' respawn        |
 // ============================================================================= 
-useSpawnProtection = true;                      // Enable module - true or false.
+useSpawnProtection = false;                      // Enable module - true or false.
 
     spawnSize = 100;                            // Size of the area.
     
@@ -274,6 +282,7 @@ DAC_STRPlayers = [
 // =============================================================================
 // =============================================================================
 publicVariable "missionGameMode"; publicVariable "setupSize"; publicVariable "missionEnemySide";
+publicVariable "enableRepair";
 publicVariable "missionAuthorName"; publicVariable "missionVersion";
 publicVariable "playerFactionName"; publicVariable "enemyFactionName"; publicVariable "colorPlayerSide"; publicVariable "colorEnemySide";
 publicVariable "useBodyRemoval";publicVariable"f_removeBodyDelay";publicVariable "f_doNotRemoveBodies";

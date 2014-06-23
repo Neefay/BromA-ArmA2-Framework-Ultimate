@@ -64,6 +64,11 @@ if (missionGameMode == "tvt") then {
 [] execVM (OPTIONAL_PATH+"notepad\init.sqf");
 
 //==============================================================================
+// BromA Field Repair
+//==============================================================================
+if (enableRepair) then { [] execVM (OPTIONAL_PATH+"repair\init.sqf")};
+
+//==============================================================================
 // Settings for ACE Stamina, based on mission parameters
 //==============================================================================
 [mission_ACE_Stamina] call INIT_ace_stamina;
