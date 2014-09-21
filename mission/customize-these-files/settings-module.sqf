@@ -114,7 +114,7 @@ timeLimitEnding = 6;                            // Time limit reached.
 //    http://ferstaberinde.com/f2/en/index.php?title=Automatic_Body_Removal    |
 // =============================================================================
 useBodyRemoval = true;                          // Enable module - true or false.
-    f_removeBodyDelay = 30;                     // Time in seconds for removal.
+    f_removeBodyDelay = 120;                     // Time in seconds for removal.
     f_doNotRemoveBodies = [];                   // Units whose body won't vanish. 
 // ============================================================================= 
 
@@ -148,7 +148,7 @@ engineersOnly = true;         // Only Engineer units may repair vehicles at all.
 
 //        Creates a spawn protection zone around the player(s)' respawn        |
 // ============================================================================= 
-useSpawnProtection = false;                      // Enable module - true or false.
+useSpawnProtection = true;                      // Enable module - true or false.
 
     spawnSize = 100;                            // Size of the area.
     

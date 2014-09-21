@@ -33,7 +33,6 @@ if (playerIsJip && !(allowJIP)) exitWith {};
 
 player addWeapon "ACE_Safe";
 player enableSimulation false;
-player switchMove "amovpercmstpslowwrfldnon_player_idlesteady03";
 player setVariable ["ace_sys_goggles_earplugs", true, false];
 player setVariable ["ace_ear_protection", true, false];
 player selectWeapon "ACE_Safe";

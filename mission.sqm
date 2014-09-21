@@ -78,7 +78,7 @@ class Mission
 	randomSeed=3234872;
 	class Intel
 	{
-		briefingName=">> Broma Framework ULTIMATE - v1.1 <<";
+		briefingName=">> Broma Framework ULTIMATE - v1.15 <<";
 		briefingDescription="** EDIT THE DESCRIPTION TO FIT YOUR MISSION **";
 		resistanceEast=1;
 		startWeather=0.30000001;
@@ -351,7 +351,7 @@ class Mission
 					rank="LIEUTENANT";
 					skill=1;
 					text="Platoon69Medic";
-					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Zero""]; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Zero'2 Medic";
 				};
 			};
@@ -390,7 +390,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL691_Alpha_1_1";
-					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Alpha 1'1 - Fireteam Leader";
 				};
 				class Item2
@@ -404,7 +404,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha691692";
-					init="this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Alpha 1'2 - Automatic Rifleman";
 				};
 				class Item3
@@ -418,7 +418,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha691693";
-					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Alpha 1'3 - Rifleman";
 				};
 				class Item4
@@ -432,7 +432,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha691694";
-					init="this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Alpha 1'4 - AT Specialist";
 				};
 				class Item5
@@ -447,7 +447,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL692_Alpha_2_1";
-					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Alpha 2'1 - Fireteam Leader";
 				};
 				class Item6
@@ -461,7 +461,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha692692";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Alpha 2'2 - Rifleman";
 				};
 				class Item7
@@ -475,7 +475,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha692693";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Alpha 2'3 - Rifleman";
 				};
 				class Item8
@@ -489,7 +489,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha692694";
-					init="this assignTeam ""RED""; id = [""JTAC"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""RED""; id = [""JTAC"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Alpha 2'4 - JTAC";
 				};
 				class Item9
@@ -503,7 +503,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Alpha69Corpsman";
-					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Alpha""]; alpha_grp_blu = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Alpha - Squad Medic";
 				};
 			};
@@ -542,7 +542,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL691_Bravo_1_1";
-					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Bravo 1'1 - Fireteam Leader";
 				};
 				class Item2
@@ -556,7 +556,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo691692";
-					init="this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Bravo 1'2 - Automatic Rifleman";
 				};
 				class Item3
@@ -570,7 +570,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo691693";
-					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Bravo 1'3 - Rifleman";
 				};
 				class Item4
@@ -584,7 +584,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo691694";
-					init="this assignTeam ""BLUE"";id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""BLUE"";id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Bravo 1'4 - AT Specialist";
 				};
 				class Item5
@@ -599,7 +599,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL692_Bravo_2_1";
-					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Bravo 2'1 - Fireteam Leader";
 				};
 				class Item6
@@ -613,7 +613,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo692692";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Bravo 2'2 - Rifleman";
 				};
 				class Item7
@@ -627,7 +627,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo692693";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Bravo 2'3 - Rifleman";
 				};
 				class Item8
@@ -641,7 +641,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo692694";
-					init="this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Bravo 2'4 - Designated Marksman";
 				};
 				class Item9
@@ -655,7 +655,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Bravo69Corpsman_Bravo";
-					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Bravo""]; bravo_grp_blu = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Bravo - Squad Medic";
 				};
 			};
@@ -694,7 +694,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL691_Charlie_1_1";
-					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Charlie 1'1 - Fireteam Leader";
 				};
 				class Item2
@@ -708,7 +708,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie691692";
-					init="this assignTeam ""BLUE"";  id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""BLUE"";  id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Charlie 1'2 - Automatic Rifleman";
 				};
 				class Item3
@@ -722,7 +722,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie691693";
-					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Charlie 1'3 - Rifleman";
 				};
 				class Item4
@@ -736,7 +736,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie691694";
-					init="this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Charlie 1'4 - AT Specialist";
 				};
 				class Item5
@@ -751,7 +751,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL692_Charlie_2_1";
-					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Charlie 2'1 - Fireteam Leader";
 				};
 				class Item6
@@ -765,7 +765,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie692692";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Charlie 2'2 - Rifleman";
 				};
 				class Item7
@@ -779,7 +779,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie692693";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Charlie 2'3 - Rifleman";
 				};
 				class Item8
@@ -793,7 +793,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie692694";
-					init="this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Charlie 2'4 - Designated Marksman";
 				};
 				class Item9
@@ -807,7 +807,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Charlie69Corpsman_Charlie";
-					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Charlie""]; charlie_grp_blu = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Charlie - Squad Medic";
 				};
 			};
@@ -846,7 +846,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL691_Delta_1_1";
-					init="this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""BLUE""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Delta 1'1 - Fireteam Leader";
 				};
 				class Item2
@@ -860,7 +860,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta691692";
-					init="this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""BLUE""; id = [""MG"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Delta 1'2 - Automatic Rifleman";
 				};
 				class Item3
@@ -874,7 +874,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta691693";
-					init="this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""BLUE""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Delta 1'3 - Rifleman";
 				};
 				class Item4
@@ -888,7 +888,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta691694";
-					init="this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""BLUE""; id = [""AT"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Delta 1'4 - AT Specialist";
 				};
 				class Item5
@@ -903,7 +903,7 @@ class Mission
 					rank="SERGEANT";
 					skill=1;
 					text="FTL692_Delta_2_1";
-					init="this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""RED""; id = [""FTL"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="=== Delta 2'1 - Fireteam Leader";
 				};
 				class Item6
@@ -917,7 +917,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta692692";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Delta 2'2 - Rifleman";
 				};
 				class Item7
@@ -931,7 +931,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta692693";
-					init="this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""RED""; id = [""rifleman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Delta 2'3 - Rifleman";
 				};
 				class Item8
@@ -945,7 +945,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta692694";
-					init="this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""RED""; id = [""marksman"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="     Delta 2'4 - Designated Marksman";
 				};
 				class Item9
@@ -959,7 +959,7 @@ class Mission
 					player="PLAY CDG";
 					skill=1;
 					text="Delta69Corpsman_Delta";
-					init="this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="(group this) setGroupId [""Delta""]; delta_grp_blu = group this; this assignTeam ""GREEN""; id = [""medic"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Delta - Squad Medic";
 				};
 			};
@@ -1074,7 +1074,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="Omega691692";
-					init=" id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="overwatch_grp_blu = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Omega'2 - Sniper/Overwatch";
 				};
 				class Item2
@@ -1089,7 +1089,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="Omega691693";
-					init=" id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="overwatch_grp_blu = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Omega'3 - Sniper/Overwatch";
 				};
 				class Item3
@@ -1104,7 +1104,7 @@ class Mission
 					rank="SERGEANT";
 					skill=0.60000002;
 					text="Omega691694";
-					init=" id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
+					init="overwatch_grp_blu = group this; (group this) setGroupId [""Omega""]; id = [""sniper"", this] call compile preprocessFileLineNumbers ""mission\loadout\blufor.sqf"";";
 					description="Omega'4 - Sniper/Overwatch";
 				};
 			};
@@ -4023,7 +4023,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			position[]={1190.8794,40.741112,120.08418};
@@ -4203,6 +4203,12 @@ class Mission
 			type="Empty";
 			a=0;
 			b=0;
+		};
+		class Item19
+		{
+			position[]={2060.5042,49.374493,-1.6269531};
+			name="boot_hill";
+			type="Empty";
 		};
 	};
 	class Sensors

@@ -41,6 +41,8 @@ _specAT = _SMAW;
 _commonsniper = _M24;
 _commonsmg = _MP5A5;
 
+_backpack = "ACE_Coyote_Pack";
+
 // =============================================================================
 // Adds essential items.
 

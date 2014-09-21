@@ -20,6 +20,8 @@ _specAT = _RPG7;
 _commonsniper = _SVD;
 _commonsmg = _AK74U;
 
+_backpack = "ACE_Coyote_Pack";
+
 // =============================================================================
 // Adds essential items.
 
